@@ -23,8 +23,8 @@ import {
 import DeltaFooter from '../components/Footer'
 import DeltaHeader from '../components/Header'
 
-var delta60Pic = require('../images/delta-60.jpg')
-var cover = require('../images/OLOLDonation.jpg')
+var delta60Pic = require('../images/delta60.jpg')
+var cover = require('../images/cover-art.jpg')
 
 export default class Delta60 extends React.PureComponent {
 	render(){

@@ -22,7 +22,7 @@ import JournalCard from '../JournalCard'
 import DeltaFooter from '../Footer'
 import DeltaHeader from '../Header'
 
-var heroImage = require('./OLOLDonation.jpg');
+var heroImage = require('./cover-art.jpg');
 
 
 // <Box size='small' basis='small' justify='center' colorIndex='accent-3' >

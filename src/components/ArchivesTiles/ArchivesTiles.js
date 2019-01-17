@@ -18,78 +18,78 @@ import Hero from 'grommet/components/Hero';
 import Carousel from 'grommet/components/Carousel';
 
 var delta1 =  require('../../images/archives-pics/delta-1.png');
-var delta60 = require('../../images/archives-pics/delta-60.jpg');
-var delta58 = require('../../images/archives-pics/delta-58.jpg');
+var delta60 = require('../../images/archives-pics/delta60.jpg');
+var delta58 = require('../../images/archives-pics/delta58.jpg');
 
 export default class ArchivesTiles extends React.Component {
-	render(){
-	  return(
-	    <div>
-	    <Carousel
-		 	   autoplay={ false }
-		 	   className='archives-carousel'
+  render(){
+    return(
+      <div>
+      <Carousel
+         autoplay={ false }
+         className='archives-carousel'
 
-		 	  >
-		 	   
-		  <Tiles
+        >
+         
+      <Tiles
            flush={ false }>
-	        <Tile>
-	          <Box>
-	          <Image src={ delta60 } />
-	          <Label align='center'> Delta Volume 60 </Label>
-	          </Box>
-	         </Tile>
-	        <Tile>
-	          <Box>
-	          <Image src={ delta1 } />
-	          <Label align='center'> Delta Volume 59 </Label>
-	          </Box>
-	         </Tile> 
-	        <Tile>
-	          <Box>
-	          <Image src={ delta58 } />
-	          <Label align='center'> Delta Volume 58 </Label>
-	          </Box>
-	         </Tile>
-	        
-	        <Tile>
-	          <Box>
-	          <Image src={ delta1 } />
-	          <Label align='center'> Delta Volume 57 </Label>
-	          </Box>
-	         </Tile>
-	        <Tile>
-	          <Box>
-	          <Image src={ delta1 } />
-	          <Label align='center'> Delta Volume 56 </Label>
-	          </Box>
-	         </Tile>
-	        <Tile>
-	          <Box>
-	          <Image src={ delta1 } />
-	          <Label align='center'> Delta Volume 55 </Label>
-	          </Box>
-	         </Tile>
+          <Tile>
+            <Box>
+            <Image src={ delta60 } />
+            <Label align='center'> Delta Volume 60 </Label>
+            </Box>
+           </Tile>
+          <Tile>
+            <Box>
+            <Image src={ delta1 } />
+            <Label align='center'> Delta Volume 59 </Label>
+            </Box>
+           </Tile> 
+          <Tile>
+            <Box>
+            <Image src={ delta58 } />
+            <Label align='center'> Delta Volume 58 </Label>
+            </Box>
+           </Tile>
+          
+          <Tile>
+            <Box>
+            <Image src={ delta1 } />
+            <Label align='center'> Delta Volume 57 </Label>
+            </Box>
+           </Tile>
+          <Tile>
+            <Box>
+            <Image src={ delta1 } />
+            <Label align='center'> Delta Volume 56 </Label>
+            </Box>
+           </Tile>
+          <Tile>
+            <Box>
+            <Image src={ delta1 } />
+            <Label align='center'> Delta Volume 55 </Label>
+            </Box>
+           </Tile>
 
-	        <Tile>
-	          <Box>
-	          <Image src={ delta1 } />
-	          <Label align='center'> Delta Volume 54 </Label>
-	          </Box>
-	         </Tile>
-	        <Tile>
-	          <Box>
-	          <Image src={ delta1 } />
-	          <Label align='center'> Delta Volume 53 </Label>
-	          </Box>
-	         </Tile> 
-	        <Tile>
-	          <Box>
-	          <Image src={ delta1 } />
-	          <Label align='center'> Delta Volume 52 </Label>
-	          </Box>
-	         </Tile>
-	    
+          <Tile>
+            <Box>
+            <Image src={ delta1 } />
+            <Label align='center'> Delta Volume 54 </Label>
+            </Box>
+           </Tile>
+          <Tile>
+            <Box>
+            <Image src={ delta1 } />
+            <Label align='center'> Delta Volume 53 </Label>
+            </Box>
+           </Tile> 
+          <Tile>
+            <Box>
+            <Image src={ delta1 } />
+            <Label align='center'> Delta Volume 52 </Label>
+            </Box>
+           </Tile>
+      
              <Tile>
                <Box>
                <Image src={ delta1 } />
@@ -108,10 +108,10 @@ export default class ArchivesTiles extends React.Component {
                <Label align='center'> Delta Volume 49 </Label>
                </Box>
               </Tile>
-	  </Tiles>
+    </Tiles>
 
             <Tiles
-	         flush={ false }>
+           flush={ false }>
              <Tile>
                <Box>
                <Image src={ delta1 } />
@@ -187,8 +187,8 @@ export default class ArchivesTiles extends React.Component {
                <Label align='center'> Delta Volume 1 </Label>
                </Box>
               </Tile>             
-	  </Tiles>
-	      <Tiles
+    </Tiles>
+        <Tiles
              flush={ false }
              >
              <Tile>
@@ -266,9 +266,9 @@ export default class ArchivesTiles extends React.Component {
                <Label align='center'> Delta Volume 1 </Label>
                </Box>
               </Tile>             
-	  </Tiles>
-	   <Tiles
-	   flush={ false }>
+    </Tiles>
+     <Tiles
+     flush={ false }>
              <Tile>
                <Box>
                <Image src={ delta1 } />
@@ -344,9 +344,9 @@ export default class ArchivesTiles extends React.Component {
                <Label align='center'> Delta Volume 1 </Label>
                </Box>
               </Tile>             
-	  </Tiles>
-	   <Tiles
-	   flush={ false }>
+    </Tiles>
+     <Tiles
+     flush={ false }>
              <Tile>
                <Box>
                <Image src={ delta1 } />
@@ -422,11 +422,11 @@ export default class ArchivesTiles extends React.Component {
                <Label align='center'> Delta Volume 1 </Label>
                </Box>
               </Tile>             
-	  </Tiles>
-	  </Carousel>
+    </Tiles>
+    </Carousel>
     </div> 
-		)
-	}
+    )
+  }
 }
  
-	
+  

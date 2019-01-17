@@ -18,8 +18,8 @@ import Hero from 'grommet/components/Hero';
 import Carousel from 'grommet/components/Carousel';
 
 var delta1 =  require('../images/archives-pics/delta-1.png');
-var delta60 = require('../images/archives-pics/delta-60.jpg');
-var delta58 = require('../images/archives-pics/delta-58.jpg');
+var delta60 = require('../images/archives-pics/delta60.jpg');
+var delta58 = require('../images/archives-pics/delta58.jpg');
 
 import DeltaFooter from '../components/Footer';
 import DeltaHeader from '../components/Header';

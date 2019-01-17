@@ -2,7 +2,7 @@ import React from 'react'
 import Card from 'grommet/components/Card'
 import Anchor from 'grommet/components/Anchor'
 
-var cardImg = require('./hc-sign.jpg');
+var cardImg = require('./hc-sign-1.jpg');
 
 export default class HCRCard extends React.PureComponent {
   render(){
