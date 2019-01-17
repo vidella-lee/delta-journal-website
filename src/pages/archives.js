@@ -22,7 +22,7 @@ import DeltaFooter from '../components/Footer'
 import DeltaHeader from '../components/Header'
 import ArchivesTiles from '../components/ArchivesTiles'
 
-var img = require('../images/issue60.jpg');
+var img = require('../images/issue-60.jpg');
 var delta1 =  require('../images/archives-pics/delta-1.png');
 
 export default class Archives extends React.Component {
