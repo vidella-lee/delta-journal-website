@@ -61,7 +61,7 @@ export default class Masthead extends React.PureComponent {
              align='left'
              margin='small'
              >
-              <Box separator='bottom'>
+              <Box separator='bottom' className='head-text'>
                 Editor in Chief
               </Box>
               <Box direction='row' responsive={ false }>
@@ -79,7 +79,7 @@ export default class Masthead extends React.PureComponent {
              align='center'
              margin='small'
              >
-               <Box separator='bottom'>
+               <Box separator='bottom' className='head-text'>
                  Staff
                </Box>
              </Paragraph>
@@ -123,7 +123,7 @@ export default class Masthead extends React.PureComponent {
               align='center'
               margin='small'
              > 
-              <Box separator='bottom'>
+              <Box separator='bottom' className='head-text'>
                 Editor in Chief
               </Box>
               <Box
@@ -143,7 +143,7 @@ export default class Masthead extends React.PureComponent {
                  align='center'
                  margin='small'
                 >
-                <Box separator='bottom'>
+                <Box separator='bottom' className='head-text'>
                   Staff
                 </Box>
                 </Paragraph>

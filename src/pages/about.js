@@ -26,7 +26,7 @@ var bkgrd = require('../images/delta-striped-1.png');
 export default class About extends React.PureComponent {
 	render(){
 		return(
-		  <div>
+		  <Article>
 		  <DeltaHeader />
 		  <div className='about-page'>
 			
@@ -78,7 +78,7 @@ export default class About extends React.PureComponent {
 			
 			</div>
 			<DeltaFooter />
-		  </div>
+		  </Article>
 		)
 	}
 }

@@ -15,7 +15,7 @@ var logo = require('./logo-official.png');
 export default class DeltaHeader extends React.PureComponent {
   render(){
     return(
-      <div className="header">
+     
       <Header 
           fixed={true}
           // float={true}
@@ -45,17 +45,14 @@ export default class DeltaHeader extends React.PureComponent {
             </Box>
               
               <Box 
-              flex={true}
-              justify='end'
-              direction='row'
-              margin='medium'
+               pad='medium'
               >
               <Anchor href='/submit/'>
               <span className='submit-label'><Label size='small' uppercase={ true }> Submit</Label></span>
               </Anchor>
           </Box>
         </Header>
-</div>
+
       )
   }
 }
