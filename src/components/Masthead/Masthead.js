@@ -39,6 +39,7 @@ export default class Masthead extends React.PureComponent {
            align='center'
            justify='center' 
            // full='horizontal'
+           className='masthead'
            >
           <Box
            direction='column' 
