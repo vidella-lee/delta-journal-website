@@ -16,7 +16,8 @@ export default class DeltaHeader extends React.PureComponent {
   render(){
     return(
      
-      <Header 
+      <Header
+          size='large'
           fixed={true}
           // float={true}
           // size={{ width: {max: 'large'}}} 
@@ -45,7 +46,10 @@ export default class DeltaHeader extends React.PureComponent {
             </Box>
               
               <Box 
-                pad='medium'
+                   flex={true}
+              justify='end'
+              direction='row'
+              margin='medium'
               >
               <Anchor href='/submit/'>
               <span className='submit-label'><Label size='small' uppercase={ true }> Submit</Label></span>
