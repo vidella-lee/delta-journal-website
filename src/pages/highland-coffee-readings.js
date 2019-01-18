@@ -89,7 +89,14 @@ export default class HighlandCoffeeReadings extends React.PureComponent {
 			       		</Paragraph>
                         <Heading tag='h2'>@</Heading>
                         <Label>Highland Coffees</Label>
-                        <Paragraph>3350 Highland Rd. <br /> Baton Rouge, LA 70802</Paragraph>
+                        <Box margin='large'>
+                        	<Paragraph>
+                        		3350 Highland Rd.
+                        		<br />
+                        		Baton Rouge, LA 70802 
+                        		<br />
+                        	</Paragraph>
+                        </Box>	
 			          </Box>
 			       </Columns>
 			     </Box>

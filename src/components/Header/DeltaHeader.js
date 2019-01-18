@@ -19,7 +19,7 @@ export default class DeltaHeader extends React.PureComponent {
       <Header
           size='large'
           fixed={true}
-          justify='between'
+          justify='start'
           // float={true}
           // size={{ width: {max: 'large'}}} 
           colorIndex="neutral-3"
@@ -32,28 +32,28 @@ export default class DeltaHeader extends React.PureComponent {
             </Title>
           </Box>
             <Box
-             //pad='medium'
+             pad='medium'
              >
               <Anchor href='/about/'>
               <Label size='small' uppercase={ true }>About</Label>
               </Anchor>
             </Box>
             <Box
-             //pad='medium'
+             pad='medium'
              > 
               <Anchor href='/archives/'>
                 <Label size='small' uppercase={ true }>Archives</Label>
               </Anchor>
             </Box>
             <Box 
-              //pad='medium'
+              pad='medium'
               > 
               <Anchor href='/events/'>
                 <Label size='small' uppercase={ true }>Events</Label>
               </Anchor>
             </Box>
             <Box 
-              //pad='medium'
+              pad='medium'
               >
               <Anchor href='/submit/'>
               <Label size='small' uppercase={ true }>Submit</Label>
