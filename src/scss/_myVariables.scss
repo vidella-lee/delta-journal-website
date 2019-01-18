@@ -267,6 +267,10 @@ $sub-head-font: 'Abel', sans-serif !important;
 .masthead {
   color: #313234; /*dark ash grey*/
 }
+.masthead-headers {
+  font-family: $head-font;
+  text-align: center;
+}
 
 .about-page {
   background: #EEF2F6; /*icy grey*/;
@@ -299,7 +303,7 @@ $sub-head-font: 'Abel', sans-serif !important;
   justify-content: center;
   // margin-left: auto;
   // margin-right: auto;
-  width: 70%;
+  width: 100%;
   // min-width: 100vh;
   height: 70%;
   min-height: 70vh;

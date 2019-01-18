@@ -30,7 +30,7 @@ export default class Masthead extends React.PureComponent {
          // margin={{bottom: 'medium'}}
          >
           <Heading align='center'>
-            <span className='masthead'>MASTHEAD</span>
+            MASTHEAD
           </Heading>
 	    </Box>
 		  <Box
@@ -65,10 +65,12 @@ export default class Masthead extends React.PureComponent {
               <Box separator='bottom' className='head-text'>
                 Editor in Chief
               </Box>
-              <Box direction='row' responsive={ false }>
-                 
-                            <Paragraph margin='small'>
-            	  Eunice Koomson
+              <Box 
+               direction='row' 
+               //responsive={ false }
+               >
+                <Paragraph margin='small'>
+            	   Eunice Koomson
                 </Paragraph>
                </Box>
             </Paragraph>
@@ -79,7 +81,7 @@ export default class Masthead extends React.PureComponent {
              margin='small'
              >
                <Box separator='bottom' className='head-text'>
-                 Staff
+                 <h3 className='masthead-headers'>Staff</h3>
                </Box>
              </Paragraph>
              
@@ -127,23 +129,18 @@ export default class Masthead extends React.PureComponent {
               </Box>
               <Box
                direction='row'
-               responsive={ false }
+               //responsive={ false }
                >
-        
-                            <Paragraph margin='small'>
-            	  Jordan Marcell
+                <Paragraph margin='small'>
+            	   Jordan Marcell
                 </Paragraph>
                </Box>
             </Paragraph>
-             <Paragraph
-                 size='large'
-                 align='center'
-                 margin='small'
-                >
-                <Box separator='bottom' className='head-text'>
-                  Staff
+       
+                <Box separator='bottom'>
+                  <h3 className='masthead-headers'>Staff</h3>
                 </Box>
-                </Paragraph>
+             
                 <Paragraph 
                  align='center' 
                  margin='small'
