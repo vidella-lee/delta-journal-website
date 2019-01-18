@@ -21,8 +21,6 @@ import { Image, Container } from 'semantic-ui-react'
 var img = require('../images/delta+coffee.png');
 var bkgrd = require('../images/delta-striped-1.png');
 
-// var proseAvi = require('../images/deltalogo-icy.png');
-
 export default class About extends React.PureComponent {
 	render(){
 		return(

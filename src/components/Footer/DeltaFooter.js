@@ -49,9 +49,7 @@ export default class DeltaFooter extends React.PureComponent {
            pad={{"between": "medium"}}
           >
             
-            <Paragraph margin='none'>
-              2018 Delta Literary Journal
-            </Paragraph>
+     
 
         <Box margin={{right: 'large'}}>
         <Menu direction='row'
@@ -61,7 +59,9 @@ export default class DeltaFooter extends React.PureComponent {
         <Link to='/contact/' className='underline-a'>
           Contact Us
         </Link>
-
+                 <Paragraph margin='none'>
+              2018 Delta Literary Journal
+            </Paragraph>
         </Menu>
         </Box>
         </Box>

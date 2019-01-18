@@ -33,11 +33,11 @@ $sub-head-font: 'Abel', sans-serif !important;
   text-decoration: underline !important;
 }
 
-.full-view {
-  height: 100%;
-  min-height:100vh;
-  width: 100%;
-}
+// .full-view {
+//   height: 100%;
+//   min-height:100vh;
+//   width: 100%;
+// }
 
 .delta60-page{
   display: flex;
@@ -187,15 +187,15 @@ $sub-head-font: 'Abel', sans-serif !important;
   flex-direction: column;
   height: 90%;
   min-height:90vh;
-  width: 100%;
+  // width: 100%;
 }
 .contact-border {
   display: flex;
   flex-direction: column;
   border: 10px solid #8DB9BA; /*briny teal*/
   margin: 5%;
-  width: 90%;
-  min-width: 90vh;
+  // width: 90%;
+  // min-width: 90vh;
   padding: 20px;
   align-items: center;
 }
@@ -286,8 +286,8 @@ $sub-head-font: 'Abel', sans-serif !important;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
-  min-width: 100vh;
+  // width: 100%;
+  // min-width: 100vh;
   height: 70%;
   min-height: 70vh;
   background-image: url('../images/delta+coffee.png');
@@ -319,7 +319,7 @@ $sub-head-font: 'Abel', sans-serif !important;
   // background: #313234; /*dark ash grey*/
   // background: #8DB9BA; /*briny teal*/
   height: 100%;
-  width: 100%;
+  // width: 100%;
   align-items: center;
   justify-content: center;
 }

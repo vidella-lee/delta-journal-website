@@ -35,7 +35,7 @@ var cloudGradient = require('../images/cloud-gradient.png');
 export default class Events extends React.PureComponent{
 	render(){
 	 return(
-	 	<div>
+	 	<Article>
 	 	  <DeltaHeader />
 	 	  <div className='event-page full-view'>
 	 	  	<div className='event-box'>
@@ -128,7 +128,7 @@ export default class Events extends React.PureComponent{
 		    </div>	
 		 </div>
 		 <DeltaFooter />
-	   </div>	
+	   </Article>	
 	 )
 	}
 	

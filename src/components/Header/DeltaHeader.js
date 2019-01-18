@@ -45,7 +45,10 @@ export default class DeltaHeader extends React.PureComponent {
             </Box>
               
               <Box 
-               pad='medium'
+               flex={true}
+              justify='end'
+              direction='row'
+              margin='medium'
               >
               <Anchor href='/submit/'>
               <span className='submit-label'><Label size='small' uppercase={ true }> Submit</Label></span>

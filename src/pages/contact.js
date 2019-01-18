@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Article from 'grommet/components/Article'
 import Link from 'gatsby-link'
 import {
 	Grid,
@@ -17,7 +17,7 @@ var logo = require('../images/logo-official.png');
 export default class Contact extends React.PureComponent {
 	render(){
 		return(
-			<div>
+			<Article>
 				<DeltaHeader />
 					<div className='contact-page'>
 						<div className='contact-border'>
@@ -68,7 +68,7 @@ export default class Contact extends React.PureComponent {
 
 					</div>		
 			<DeltaFooter />
-			</div>
+			</Article>
 		)
 	}
 }
