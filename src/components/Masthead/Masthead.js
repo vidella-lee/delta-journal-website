@@ -22,7 +22,7 @@ import App from 'grommet/components/App'
 export default class Masthead extends React.PureComponent {
 	render(){
 		return(
-		<div>	
+		<Box>	
         <Box
          // full='horizontal'
          colorIndex='neutral-3'
@@ -48,26 +48,24 @@ export default class Masthead extends React.PureComponent {
            pad='medium' 
            margin={{right:'medium'}}
            >
-            <Label 
+            <Heading
              uppercase={ true } 
              size='large' 
              align='center' 
              // margin='large'
              > 
                Prose 
-             </Label>
+             </Heading>
             <Paragraph
              size='large'
-             align='left'
+             align='start'
              margin='small'
              >
               <Box separator='bottom' className='head-text'>
                 Editor in Chief
               </Box>
               <Box direction='row' responsive={ false }>
-                <div className='editor-pic'>
-                
-                </div>  
+                 
                             <Paragraph margin='small'>
             	  Eunice Koomson
                 </Paragraph>
@@ -110,14 +108,14 @@ export default class Masthead extends React.PureComponent {
            pad='medium' 
            margin={{left:'medium'}}
            >
-            <Label 
+            <Heading 
              uppercase={ true } 
              size='large' 
              align='center' 
              // margin='large'
              > 
                Poetry
-             </Label>
+             </Heading>
              <Paragraph
               size='large'
               align='center'
@@ -130,9 +128,7 @@ export default class Masthead extends React.PureComponent {
                direction='row'
                responsive={ false }
                >
-              <div className='editor-pic'>
-                
-              </div>  
+        
                             <Paragraph margin='small'>
             	  Jordan Marcell
                 </Paragraph>
@@ -168,7 +164,7 @@ export default class Masthead extends React.PureComponent {
           </Box>
 				    </Box>
         
-         </div>
+         </Box>
 
 		)
 	}

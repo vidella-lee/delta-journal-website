@@ -11,7 +11,7 @@ import Anchor from 'grommet/components/Anchor'
 import Split from 'grommet/components/Split'
 import Sidebar from 'grommet/components/Sidebar'
 import App from 'grommet/components/App'
-
+import Hero from 'grommet/components/Hero'
 import Masthead from '../components/Masthead'
 import DeltaFooter from '../components/Footer'
 import DeltaHeader from '../components/Header'
@@ -24,14 +24,14 @@ var bkgrd = require('../images/delta-striped-1.png');
 export default class About extends React.PureComponent {
 	render(){
 		return(
-		  <Article>
+		  <Article colorIndex="neutral-2">
 		  <DeltaHeader />
-		  <div className='about-page'>
+		 
 			
 			   
 			
             	 
-            	    <div style={{margin:'0px'}, {width:'100%'}, {height:'100%'}, {filter:'drop-shadow(16px 16px 10px grey)'}}>
+            	    
             			<div className='about-hero-container'>
             				<div className='about-header'>
             	        		<h1
@@ -42,7 +42,7 @@ export default class About extends React.PureComponent {
 				       				About Delta
 				    			</h1>
 				    		</div>	
-            	     	</div>
+            	     	
             	     </div>
 				    
 				    <div className='about-box'>
@@ -74,7 +74,7 @@ export default class About extends React.PureComponent {
 				 </Box>
 			  
 			
-			</div>
+			
 			<DeltaFooter />
 		  </Article>
 		)

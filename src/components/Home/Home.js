@@ -36,7 +36,7 @@ export default class Home extends React.PureComponent {
   render(){
   	
     return (
-      <div>
+      <Article colorIndex="neutral-2">
         <DeltaHeader />
         <div className='app'>
           
@@ -107,9 +107,10 @@ export default class Home extends React.PureComponent {
             </Section>   
             </Article>
             </div>
+            
+            </div>
             <DeltaFooter />
-            </div>
-            </div>
+            </Article>
             )
   }
 }

@@ -35,30 +35,24 @@ var cloudGradient = require('../images/cloud-gradient.png');
 export default class Events extends React.PureComponent{
 	render(){
 	 return(
-	 	<Article>
+	 	<Article colorIndex="neutral-3">
 	 	  <DeltaHeader />
-	 	  <div className='event-page full-view'>
+	 	  <Container className='event-page' textAlign='center'>
 	 	  	<div className='event-box'>
 	 	  		<Container>
-	 	  			<Grid
-	 	  		 	 columns={2} 
-	 	  		 	 divided
-	 	  		 	 // centered={true}
-	 	  		 	 inverted={true}
-	 	  		 	 >
-	 	  			<Grid.Column>
+	 	  			
 		    			<Container textAlign='center'>
 		    				<h1 className='event-head'>Events</h1>
 		    			</Container>
-		    			<p
+		    			<Container text
 		    			 className='event-text' 
 		    			
 		    			>
 		    				  Celebrate, support, and participate in Baton Rouge and LSU's literary and creative communities.
 		    				  Check here to keep up with upcoming Delta events like fundraisers, readings, 
 		    				  workshops, etc. and follow us on social media for updates!
-		    				</p>
-		    				<div className='event-icon-group'>
+		    				</Container>
+		    				<Container className='event-icon-group'>
 		    					<a className='icon-link' href='https://www.facebook.com/DeltaLiteraryJournal'>
 									<Icon 
 									 size='big'
@@ -74,15 +68,14 @@ export default class Events extends React.PureComponent{
 									 size='big'
 									 name='twitter square' />
   								</a>
-		    				</div>
-		    		</Grid.Column>
-		    		<Grid.Column textAlign='left'>
+		    				</Container>
+		    		
 		    			
-		    			<Container className='event-card' centered={true}>
+		    			<Container as='div' className='event-card'>
 		    				<Image
 		    				 size='tiny'
 		    				 src={ readingPic }
-		    				 floated='left'
+		    				 // floated='left'
 		    				 circular={ true }
 		    				 href='../highland-coffee-readings'
 		    				/>
@@ -95,17 +88,17 @@ export default class Events extends React.PureComponent{
 		    				 		Highland Coffees Reading Series 
 		    				 	</h3>
 		    				</a>
-		    				<p
+		    				<Container 
 		    				 className='event-card-text'
 		    				 >
 		    				 An open mic for poetic souls and storytellers. Twice a month.
-		    				</p>
+		    				</Container>
 		    			</Container>
 		    			<Container className='event-card' centered={true}>
 		    					<Image
 		    					 size='tiny'
 		    					 src={ cloudGradient }
-		    					 floated='left'
+		    					 // floated='left'
 		    					 circular={ true }
 		    					 href='#'
 		    					/>	
@@ -116,17 +109,16 @@ export default class Events extends React.PureComponent{
 		    				 >
 		    				 	<h3 className='head-text'> Upcoming Fundraiser </h3>
 		    				</a>
-		    				<p
+		    				<Container
 		    				 className='event-card-text'
 		    				 >
 		    				 Details coming soon!
-		    				</p>
+		    				</Container>
 		    			</Container>
-		    		</Grid.Column>
-		    	</Grid>
+		    
 		    </Container>
 		    </div>	
-		 </div>
+		 </Container>
 		 <DeltaFooter />
 	   </Article>	
 	 )

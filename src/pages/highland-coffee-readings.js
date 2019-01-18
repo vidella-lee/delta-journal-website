@@ -47,10 +47,7 @@ export default class HighlandCoffeeReadings extends React.PureComponent {
 			     align='center'
 			     justify='center'
 			     >
-			     <div 
-			      className='hcr-box' 
-			      style={{filter:'drop-shadow(16px -13px 10px grey)'}}
-			      >
+			     
 			     <Box
 			      size='large'
 			      colorIndex='neutral-3'
@@ -96,7 +93,7 @@ export default class HighlandCoffeeReadings extends React.PureComponent {
 			          </Box>
 			       </Columns>
 			     </Box>
-			    </div>
+			    
 			    </Section>
 			  </Split>
 			  <DeltaFooter />

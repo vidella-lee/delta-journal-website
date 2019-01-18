@@ -132,6 +132,9 @@ $sub-head-font: 'Abel', sans-serif !important;
 }
 
 .hcr-box {
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap; /* Safari 6.1+ */
   // padding: 20px;
   margin: 20px;
 }
@@ -264,6 +267,9 @@ $sub-head-font: 'Abel', sans-serif !important;
 .about-page {
   background: #EEF2F6; /*icy grey*/;
   // padding-left: 5%;
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
 }
 
 .about-box {
@@ -282,17 +288,21 @@ $sub-head-font: 'Abel', sans-serif !important;
   display: flex;
   flex-direction: row;
   // text-align: center;
+  align-self: center;
+  justify-self: center;
   align-items: center;
   justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  // width: 100%;
+  // margin-left: auto;
+  // margin-right: auto;
+  width: 70%;
   // min-width: 100vh;
   height: 70%;
   min-height: 70vh;
   background-image: url('../images/delta+coffee.png');
   background-size: cover;
-  background-position: left center; 
+  background-repeat: no-repeat;
+  background-position: left center;
+  filter: drop-shadow(16px 16px 10px gray);
 }
 
 .about-h1 {
@@ -334,29 +344,32 @@ $sub-head-font: 'Abel', sans-serif !important;
 .event-card {
   display: flex;
   flex-direction: row;
-  align-items: left;
-  text-align: left;
-  justify: center;
-  padding: 7%;
+  // align-items: left;
+  // text-align: left;
+  // align-self: center;
+  // justify-self: center;
+  padding: 5%;
+  margin: 5%;
 }
 .event-text{
   font-family: $head-font;
   color: #EEF2F6 !important; /*icy grey*/
   // padding-top: 8%;
-  padding-left: 10%;
-  padding-right: 5%;
+  // padding-left: 10%;
+  // padding-right: 5%;
   font-size: 18px !important;
-  text-align: justify;
+  // text-align: justify;
   text-justify: inter-word;
-  margin-left: 20%;
+  // margin-left: 20%;
+  margin: 5%;
 }
 
 .event-card-text{
   font-family: $body-font;
   color: #EEF2F6 !important; /*icy grey*/
   // color: #313234 !important; /*dark ash grey*/
-  padding-right: 15%;
-  text-align: justify;
+  // padding-right: 15%;
+  // text-align: justify;
   // font-size: 1.3em !important;
 }
 .event-box {
@@ -365,7 +378,7 @@ $sub-head-font: 'Abel', sans-serif !important;
   // background: #8DB9BA !important;
   background: #313234; /*dark ash grey*/
   min-height: 90vh;
-  min-width: 90vh;
+  // min-width: 90vh;
   margin:30px;
   color: #DEECE8; /*light green-gray*/
 }
@@ -378,10 +391,10 @@ $sub-head-font: 'Abel', sans-serif !important;
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 5%;
-  margin-left: 28%;
-  margin-right: 20%;
-  margin-bottom: 5%;
+  // margin-top: 5%;
+  // margin-left: 28%;
+  // margin-right: 20%;
+  // margin-bottom: 5%;
 }
 
 .icon-group {
