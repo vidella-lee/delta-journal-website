@@ -61,7 +61,7 @@ export default class DeltaFooter extends React.PureComponent {
             Contact Us
           </Link>
           <Paragraph margin='none'>
-              2018 Delta Literary Journal
+              2019 Delta Literary Journal
             </Paragraph>
         </Menu>
         </Box>

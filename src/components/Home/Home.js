@@ -55,7 +55,7 @@ export default class Home extends React.PureComponent {
                        // className='blurred'
                        full={ true }
                        fit="cover"
-                       align='bottom'
+                       // align='bottom'
                        />
                      }       
                     >
