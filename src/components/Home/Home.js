@@ -43,7 +43,7 @@ export default class Home extends React.PureComponent {
             <Article colorIndex="neutral-2">
               <div className="head-text">
                 <Box>
-                  <div className="hero">
+                  
                   <div style={{margin:'0px'}, {width:'100%'}, {height:'100%'}, {filter:'drop-shadow(16px 16px 10px grey)'}}>
                     <Hero
                      size='large'
@@ -63,7 +63,7 @@ export default class Home extends React.PureComponent {
                     
                  </Hero>
                  </div>
-                </div>  
+                 
                 </Box>
                 </div>
                 <App>

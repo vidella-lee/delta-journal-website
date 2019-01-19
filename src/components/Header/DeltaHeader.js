@@ -8,6 +8,7 @@ import Link from 'gatsby-link'
 import Image from 'grommet/components/Image'
 import Anchor from 'grommet/components/Anchor'
 import Label from 'grommet/components/Label'
+import Menu from 'grommet/components/Menu';
 
 // var logo = require('./deltalogo-brinyteal.png');
 var logo = require('./logo-official.png');
@@ -25,12 +26,15 @@ export default class DeltaHeader extends React.PureComponent {
           colorIndex="neutral-3"
           margin={{bottom: 'large'}}
           >
+         
           <Box
            pad='small'>
             <Title>
-              <Anchor href='/'><Image src={logo} size='thumb' alt="delta journal"/></Anchor>
+              <Anchor href='/'>
+              <Image src={logo} size='thumb' alt="delta journal"/></Anchor>
             </Title>
           </Box>
+
             <Box
              pad='medium'
              >
@@ -38,13 +42,7 @@ export default class DeltaHeader extends React.PureComponent {
               <Label size='small' uppercase={ true }>About</Label>
               </Anchor>
             </Box>
-            <Box
-             pad='medium'
-             > 
-              <Anchor href='/archives/'>
-                <Label size='small' uppercase={ true }>Archives</Label>
-              </Anchor>
-            </Box>
+     
             <Box 
               pad='medium'
               > 
@@ -52,6 +50,11 @@ export default class DeltaHeader extends React.PureComponent {
                 <Label size='small' uppercase={ true }>Events</Label>
               </Anchor>
             </Box>
+          <Menu 
+            direction='row'
+            size='large'
+            dropAlign={{"right": "right"}}
+            >
             <Box 
               pad='medium'
               >
@@ -59,6 +62,14 @@ export default class DeltaHeader extends React.PureComponent {
               <Label size='small' uppercase={ true }>Submit</Label>
               </Anchor>
           </Box>
+                 <Box
+             pad='medium'
+             > 
+              <Anchor href='/archives/'>
+                <Label size='small' uppercase={ true }>Archives</Label>
+              </Anchor>
+            </Box>
+          </Menu>
         </Header>
 
       )

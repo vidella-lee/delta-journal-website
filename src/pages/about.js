@@ -18,8 +18,9 @@ import DeltaHeader from '../components/Header'
 
 import { Image, Container } from 'semantic-ui-react'
 
-var img = require('../images/delta+coffee.png');
-var bkgrd = require('../images/delta-striped-1.png');
+// var img = require('../images/delta+coffee.png');
+// var img2 = require('../images/reading-2.jpg')
+// var bkgrd = require('../images/delta-striped-1.png');
 
 export default class About extends React.PureComponent {
 	render(){

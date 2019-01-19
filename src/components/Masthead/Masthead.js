@@ -57,13 +57,11 @@ export default class Masthead extends React.PureComponent {
              > 
                Prose 
              </Heading>
-            <Paragraph
-             size='large'
-             align='start'
-             margin='small'
-             >
+        
               <Box separator='bottom' className='head-text'>
-                Editor in Chief
+                <h3 className='masthead-headers'>
+                  Editor in Chief
+                </h3>  
               </Box>
               <Box 
                direction='row' 
@@ -73,18 +71,11 @@ export default class Masthead extends React.PureComponent {
             	   Eunice Koomson
                 </Paragraph>
                </Box>
-            </Paragraph>
-             
-            <Paragraph
-             size='large'
-             align='center'
-             margin='small'
-             >
+         
+         
                <Box separator='bottom' className='head-text'>
                  <h3 className='masthead-headers'>Staff</h3>
                </Box>
-             </Paragraph>
-             
              <Paragraph align='center' margin='small'>
                [insert name] 
                <br />
@@ -119,13 +110,11 @@ export default class Masthead extends React.PureComponent {
              > 
                Poetry
              </Heading>
-             <Paragraph
-              size='large'
-              align='center'
-              margin='small'
-             > 
+           
               <Box separator='bottom' className='head-text'>
-                Editor in Chief
+                <h3 className='masthead-headers'>
+                  Editor in Chief
+                </h3>
               </Box>
               <Box
                direction='row'
@@ -135,7 +124,7 @@ export default class Masthead extends React.PureComponent {
             	   Jordan Marcell
                 </Paragraph>
                </Box>
-            </Paragraph>
+          
        
                 <Box separator='bottom'>
                   <h3 className='masthead-headers'>Staff</h3>
