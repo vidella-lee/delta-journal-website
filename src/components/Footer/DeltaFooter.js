@@ -52,14 +52,15 @@ export default class DeltaFooter extends React.PureComponent {
      
 
         <Box margin={{right: 'large'}}>
-        <Menu direction='row'
-        size='small'
-        dropAlign={{"right": "right"}}>
-
-        <Link to='/contact/' className='underline-a'>
-          Contact Us
-        </Link>
-                 <Paragraph margin='none'>
+        <Menu
+         direction='row'
+         size='small'
+         dropAlign={{"right": "right"}}
+        >
+          <Link to='/contact/' className='underline-a'>
+            Contact Us
+          </Link>
+          <Paragraph margin='none'>
               2018 Delta Literary Journal
             </Paragraph>
         </Menu>

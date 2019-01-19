@@ -50,10 +50,11 @@ export default class DeltaHeader extends React.PureComponent {
                 <Label size='small' uppercase={ true }>Events</Label>
               </Anchor>
             </Box>
+            <Box pad='medium'>
           <Menu 
             direction='row'
             size='large'
-            dropAlign={{"right": "right"}}
+            dropAlign={{left: 'left', top: 'bottom'}}
             >
             <Box 
               pad='medium'
@@ -62,7 +63,7 @@ export default class DeltaHeader extends React.PureComponent {
               <Label size='small' uppercase={ true }>Submit</Label>
               </Anchor>
           </Box>
-                 <Box
+          <Box
              pad='medium'
              > 
               <Anchor href='/archives/'>
@@ -70,6 +71,7 @@ export default class DeltaHeader extends React.PureComponent {
               </Anchor>
             </Box>
           </Menu>
+          </Box>
         </Header>
 
       )
