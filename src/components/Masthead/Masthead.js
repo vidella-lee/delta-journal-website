@@ -27,32 +27,33 @@ export default class Masthead extends React.PureComponent {
          // full='horizontal'
          colorIndex='neutral-3'
          textAlign='center'
-         margin={{bottom: 'medium'}}
+         margin={{bottom: 'small'}}
          pad='medium'
          >
           <Heading align='center'>
             MASTHEAD
           </Heading>
 	    </Box>
-		  <Box
-           pad='small' 
-           direction='row' 
-           align='center'
-           justify='center' 
-           // full='horizontal'
-           className='masthead'
-           >
-          <Box
+		  <Box /*****MASTHEAD CONTAINER*****/
+       pad='small' 
+       direction='row' 
+       // align='start'
+       // justify='start' 
+       // full='horizontal'
+       className='masthead'
+      >
+          <Box /*****FICTION CONTAINER*****/
            direction='column' 
-           alignSelf='center' 
+           // alignSelf='center' 
            // full='vertical' 
            separator='left' 
            pad='medium' 
            margin={{right:'medium'}}
            >
-           <Box
-            pad='medium'
-            margin='medium'
+           <Box /*****HEADING CONTAINER*****/
+            pad='small'
+            margin='small'
+            colorIndex='neutral-3'
           >
             <Heading
              uppercase={ true } 
@@ -62,22 +63,17 @@ export default class Masthead extends React.PureComponent {
              > 
                Fiction 
              </Heading>
-            </Box>
+            </Box> 
               <Box separator='bottom' className='head-text'>
                 <h3 className='masthead-headers'>
                   Editor in Chief
                 </h3>  
               </Box>
-              <Box 
-               direction='row' 
-               //responsive={ false }
-               >
+              <Box>
                 <p className='body-text'>
             	   Eunice Koomson
                 </p>
                </Box>
-         
-         
                <Box separator='bottom' className='head-text'>
                  <h3 className='masthead-headers'>Staff</h3>
                </Box>
@@ -95,7 +91,7 @@ export default class Masthead extends React.PureComponent {
                     Hayden Robert
                     <br />
                     Heidi Pitre
-	                 <br />
+	                  <br />
                     Lizzie Vukovics
                     <br />
                     Logan Fontenot
@@ -112,36 +108,47 @@ export default class Masthead extends React.PureComponent {
                     <br />
                     Rebecca Pererrette
 		                <br />
-               Stella Burke
-		<br />
-               Tisheka Woodlief
+                    Stella Burke
+		                <br />
+                    Tisheka Woodlief
               </Paragraph>
                
           </Box>
 
-          <Box
+          <Box /*****POETRY CONTAINER*****/
            direction='column' 
-           alignSelf='center' 
+           //alignSelf='center' 
            // full='vertical' 
            separator='right' 
            pad='medium' 
            margin={{left:'medium'}}
            >
-            <Heading 
+           <Box /*****HEADING CONTAINER*****/
+            pad='small'
+            margin='small'
+            colorIndex='neutral-3'
+            justify='center'
+          >
+            <Heading
              uppercase={ true } 
              size='large' 
-             align='center' 
+             align='center'
              // margin='large'
              > 
                Poetry
              </Heading>
-           
+            </Box>
+            
               <Box separator='bottom' className='head-text'>
                 <h3 className='masthead-headers'>
                   Editor in Chief
                 </h3>
               </Box>
-
+              <Box>
+                <p className='body-text'>
+                 
+                </p>
+               </Box>
               <Box
                direction='row'
                //responsive={ false }
