@@ -55,7 +55,7 @@ export default class Masthead extends React.PureComponent {
              align='center' 
              // margin='large'
              > 
-               Prose 
+               Fiction 
              </Heading>
         
               <Box separator='bottom' className='head-text'>
@@ -136,8 +136,7 @@ export default class Masthead extends React.PureComponent {
                direction='row'
                //responsive={ false }
                >
-                <Paragraph margin='small'>
-            	   Jordan Marcell
+        
                 </Paragraph>
                </Box>
           
