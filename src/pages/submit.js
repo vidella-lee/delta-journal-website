@@ -94,20 +94,16 @@ export default class Submit extends React.Component{
                   				artistic statement of the piece.
                   				<br/>
                   				<br/>
-								Submissions can be submitted using the link at the top of the page or sent to lsudelta@gmail.com.
+								What to send and where to send it:
 								<br/>
 								<br/>
-								Please remove your name from the works that you submit and instead include a separate cover sheet 
-								with the following information:
+		 						<ul className='head-text'>
+            						<li>Submissions can be submitted using the link at the top of the page.</li>
+            						<li>Prose, poetry and screenplays are to be sent as PDF files. 
+		 					These can include excerpts, however they must be able to stand alone as a piece of work. </li>
+            						<li>Please remove your name from the works that you submit.</li>				
 								<br/>
 								<br/>
-								
-								<ul className='head-text'>
-            						<li>Name</li>
-            						<li>Contact information</li>
-            						<li>Title of each work</li>
-            						<li>Brief summary of work which should include a description of the intent behind any special 
-            						or specific formatting choices.</li>
             					</ul>
 
             					<br/>
