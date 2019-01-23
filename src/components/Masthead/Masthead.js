@@ -90,6 +90,22 @@ export default class Masthead extends React.PureComponent {
                [insert name]
                <br />
                [insert name]
+	       <br />
+               [insert name]
+               <br />
+               [insert name]
+               <br />
+               [insert name] 
+               <br />
+               [insert name]
+               <br />
+               [insert name]
+               <br />
+               [insert name]
+	       <br />
+               [insert name]
+               <br />
+               [insert name]
               </Paragraph>
                
           </Box>
