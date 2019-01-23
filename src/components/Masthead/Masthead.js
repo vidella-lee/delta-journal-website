@@ -22,12 +22,13 @@ import App from 'grommet/components/App'
 export default class Masthead extends React.PureComponent {
 	render(){
 		return(
-		<Box>	
+		<div>	
         <Box
          // full='horizontal'
          colorIndex='neutral-3'
          textAlign='center'
-         // margin={{bottom: 'medium'}}
+         margin={{bottom: 'medium'}}
+         pad='medium'
          >
           <Heading align='center'>
             MASTHEAD
@@ -49,6 +50,10 @@ export default class Masthead extends React.PureComponent {
            pad='medium' 
            margin={{right:'medium'}}
            >
+           <Box
+            pad='medium'
+            margin='medium'
+          >
             <Heading
              uppercase={ true } 
              size='large' 
@@ -57,7 +62,7 @@ export default class Masthead extends React.PureComponent {
              > 
                Fiction 
              </Heading>
-        
+            </Box>
               <Box separator='bottom' className='head-text'>
                 <h3 className='masthead-headers'>
                   Editor in Chief
@@ -67,49 +72,49 @@ export default class Masthead extends React.PureComponent {
                direction='row' 
                //responsive={ false }
                >
-                <Paragraph margin='small'>
+                <p className='body-text'>
             	   Eunice Koomson
-                </Paragraph>
+                </p>
                </Box>
          
          
                <Box separator='bottom' className='head-text'>
                  <h3 className='masthead-headers'>Staff</h3>
                </Box>
-             <Paragraph align='center' margin='small'>
-               [Alden Caesar] 
-               <br />
-               [Amber Lattier]
-               <br />
-               [Ana Owen]
-               <br />
-               [Ashlynn Buzbee] 
-               <br />
-               [Emily Wiewiorowski]
-               <br />
-               [Hayden Robert]
-               <br />
-               [Heidi Pitre]
-	       <br />
-               [Lizzie Vukovics]
-               <br />
-               [Logan Fontenot]
-               <br />
-               [Meagan Williams] 
-               <br />
-               [Michaela O'Hanlon]
-               <br />
-               [Mike Frank]
-               <br />
-               [Noah Felps]
-	       <br />
-               [Nona Oldner]
-               <br />
-               [Rebecca Pererrette]
+                  <Paragraph align='left' margin='small'>
+                    Alden Caesar 
+                    <br />
+                    Amber Lattier
+                    <br />
+                    Ana Owen
+                    <br />
+                    Ashlynn Buzbee
+                    <br />
+                    Emily Wiewiorowski
+                    <br />
+                    Hayden Robert
+                    <br />
+                    Heidi Pitre
+	                 <br />
+                    Lizzie Vukovics
+                    <br />
+                    Logan Fontenot
+                    <br />
+                    Meagan Williams
+                    <br />
+                    Michaela O'Hanlon
+                    <br />
+                    Mike Frank
+                    <br />
+                    Noah Felps
+	                 <br />
+                    Nona Oldner
+                    <br />
+                    Rebecca Pererrette
+		                <br />
+               Stella Burke
 		<br />
-               [Stella Burke]
-		<br />
-               [Tisheka Woodlief]
+               Tisheka Woodlief
               </Paragraph>
                
           </Box>
@@ -136,14 +141,15 @@ export default class Masthead extends React.PureComponent {
                   Editor in Chief
                 </h3>
               </Box>
+
               <Box
                direction='row'
                //responsive={ false }
                >
         
-                </Paragraph>
+              
                </Box>
-          
+            
        
                 <Box separator='bottom'>
                   <h3 className='masthead-headers'>Staff</h3>
@@ -153,24 +159,29 @@ export default class Masthead extends React.PureComponent {
                  align='center' 
                  margin='small'
                  >
-                 [insert name] 
+                 Amber McKinney
                  <br />
-                 [insert name]
+                 Antawn Amos
                  <br />
-                 [insert name]
+                 Ashley LaVergne
                 <br/>
-                 [insert name] 
+                 Kiana Naquin
                  <br />
-                 [insert name]
+                 Meagan Williams
                  <br />
-                 [insert name]
+                 Noah Felps
                  <br />
-                 [insert name]
+                 Nona Oldner
+                 <br />
+                 Reegan Wolfe
+                 <br />
+                 Stella Burke
+                 <br />
                 </Paragraph>
           </Box>
 				    </Box>
         
-         </Box>
+         </div>
 
 		)
 	}

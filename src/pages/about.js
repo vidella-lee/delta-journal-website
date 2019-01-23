@@ -62,18 +62,12 @@ export default class About extends React.PureComponent {
 				    </div>
 					
 			
-				  <Box full={ true } >
-				  	<Section
-				   	 // colorIndex='neutral-1'
-				   	 full={{vertical:true}}
-				   	 alignSelf='center'
-				   	>
+				 
 				   		<Box
 				   	 	 alignSelf='center'>
 				    		<Masthead/>
 				    	</Box>	
-				 	 </Section>
-				 </Box>
+				
 			  
 			
 			
