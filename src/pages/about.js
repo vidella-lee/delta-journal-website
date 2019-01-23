@@ -56,8 +56,8 @@ export default class About extends React.PureComponent {
 					  We aim to help foster an inclusive, supportive, and creative culture of literature.
 					  <br/>
 					  <br/>
-					  Every year, in the Spring Semester, we accept poetry and prose submissions, spanning various genres, 
-					  from LSU undergraduates and publish their work in our literary magazine.
+					  Every year, in the Spring Semester, we accept a variety of submissions such as poetry, fiction, nonfiction, 
+					  visual art, cartoons, comics, etc. from LSU undergraduates and publish their work in our literary magazine.
 				    </Container>
 				    </div>
 					
