@@ -101,13 +101,11 @@ export default class Submit extends React.Component{
             						<li>Submissions can be submitted using the link at the top of the page.</li>
             						<li>Prose, poetry and screenplays are to be sent as PDF files. 
 		 					These can include excerpts, however they must be able to stand alone as a piece of work. </li>
-            						<li>Please remove your name from the works that you submit.</li>				
-								<br/>
-								<br/>
+            						<li>Please remove your name from the works that you submit.</li>
             					</ul>
 
             					<br/>
-								<br/>
+		 						<br/>
 								<Container text className='head-text submission-guidlines'>
 								<h2 className='head-text'>PROSE</h2>
 								<br/>
@@ -120,6 +118,12 @@ export default class Submit extends React.Component{
   								Students may submit multiple pieces. Up to five pages of poetry total; No more than one poem per page.
   								<br/>
   								</Container>
+								<br/>
+								<Container text className='head-text submission-guidlines'>
+								<h2 className='head-text'>SCREENWRITING</h2>
+								<br/>
+								Submitted screenplays may be no more than 10 pages. 
+								</Container>
   								<Container text className='head-text submission-guidlines'>
   								<h2 className='head-text'>VISUAL ART</h2>
   									We accept both traditional and digital art, including photography, comics, cartoons, and photographs of 3-dimensional art such as sculptures. 
