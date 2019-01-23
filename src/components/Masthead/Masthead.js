@@ -77,35 +77,39 @@ export default class Masthead extends React.PureComponent {
                  <h3 className='masthead-headers'>Staff</h3>
                </Box>
              <Paragraph align='center' margin='small'>
-               [insert name] 
+               [Alden Caesar] 
                <br />
-               [insert name]
+               [Amber Lattier]
                <br />
-               [insert name]
+               [Ana Owen]
                <br />
-               [insert name] 
+               [Ashlynn Buzbee] 
                <br />
-               [insert name]
+               [Emily Wiewiorowski]
                <br />
-               [insert name]
+               [Hayden Robert]
                <br />
-               [insert name]
+               [Heidi Pitre]
 	       <br />
-               [insert name]
+               [Lizzie Vukovics]
                <br />
-               [insert name]
+               [Logan Fontenot]
                <br />
-               [insert name] 
+               [Meagan Williams] 
                <br />
-               [insert name]
+               [Michaela O'Hanlon]
                <br />
-               [insert name]
+               [Mike Frank]
                <br />
-               [insert name]
+               [Noah Felps]
 	       <br />
-               [insert name]
+               [Nona Oldner]
                <br />
-               [insert name]
+               [Rebecca Pererrette]
+		<br />
+               [Stella Burke]
+		<br />
+               [Tisheka Woodlief]
               </Paragraph>
                
           </Box>
