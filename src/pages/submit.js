@@ -89,9 +89,7 @@ export default class Submit extends React.Component{
                   			</Container>
                   		<Container text textAlign='justified'className='head-text' style={{padding:'15px'}, {margin: '25px'}}>
                   			
-                  				To submit, you must be an LSU undergraduate. Submissions are open to undergrad students of all majors. 
-                  				We’re also open to handwritten submissions if the fact that they’re handwritten is important to the 
-                  				artistic statement of the piece.
+                  				To submit, you must be an LSU undergraduate. Submissions are open to undergrad students of all majors.
                   				<br/>
                   				<br/>
 								What to send and where to send it:
@@ -116,6 +114,8 @@ export default class Submit extends React.Component{
   								<h2 className='head-text'>POETRY</h2>
 
   								Students may submit multiple pieces. Up to five pages of poetry total; No more than one poem per page.
+								We’re also open to handwritten poetry submissions if the fact that they’re handwritten is important to the 
+                  						artistic statement of the piece.
   								<br/>
   								</Container>
 								<br/>
