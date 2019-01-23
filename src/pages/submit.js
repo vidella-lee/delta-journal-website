@@ -115,21 +115,21 @@ export default class Submit extends React.Component{
 								<Container text className='head-text submission-guidlines'>
 								<h2 className='head-text'>PROSE</h2>
 								<br/>
-								Prose includes short fiction and non-fiction, flash fiction, and screenplay excerpts.
-								Submitted fiction and nonfiction pieces must be 7,000 words or less. 
+								Prose includes short fiction, flash fiction, and nonfiction. Students may submit up to
+								two stories of prose, totaling no more than 7,000 words (combined). 
 								</Container>
 								<Container text className='head-text submission-guidlines'>
   								<h2 className='head-text'>POETRY</h2>
 
-  								Students may submit multiple pieces. Up to five pages of poetry total per submission.
+  								Students may submit multiple pieces. Up to five pages of poetry total; No more than one poem per page.
   								<br/>
   								</Container>
   								<Container text className='head-text submission-guidlines'>
   								<h2 className='head-text'>VISUAL ART</h2>
-  									We accept both traditional and digital art, including photography and photographs of 3-dimensional art such as sculptures. 
+  									We accept both traditional and digital art, including photography, comics, cartoons, and photographs of 3-dimensional art such as sculptures. 
 									<br/>•   One piece will be selected to be featured on the Delta Journal’s cover and all other selected pieces will be included inside the journal. 
 									<br/>•   1536 x 1024 pixels minimum for digital art submissions (share on Google Drive with the LSU Delta Gmail account:  lsudelta@gmail.com) 
-									<br/>•   Artists may submit up to 5 different pieces.
+									<br/>•   Artists may submit up to 3 different pieces.
 								</Container>
                   		</Container>	
                   
