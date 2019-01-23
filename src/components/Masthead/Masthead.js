@@ -22,7 +22,9 @@ import App from 'grommet/components/App'
 export default class Masthead extends React.PureComponent {
 	render(){
 		return(
-		<div>	
+		<Box
+     //separator='all'
+     >	
         <Box
          // full='horizontal'
          colorIndex='neutral-3'
@@ -36,12 +38,24 @@ export default class Masthead extends React.PureComponent {
 	    </Box>
 		  <Box /*****MASTHEAD CONTAINER*****/
        pad='small' 
-       direction='row' 
+       direction='column' 
        // align='start'
        // justify='start' 
        // full='horizontal'
        className='masthead'
       >
+        <Box separator='bottom' className='head-text' align='center'>
+                <h3 className='masthead-headers'>
+                  Editor in Chief
+                </h3> 
+                <p className='body-text'>
+                 Eunice Koomson
+                </p>
+              </Box>
+              <Box>
+        <Box
+         direction='row' /*** ROW CONTAINER FOR GENRES***/
+        >      
           <Box /*****FICTION CONTAINER*****/
            direction='column' 
            // alignSelf='center' 
@@ -64,16 +78,7 @@ export default class Masthead extends React.PureComponent {
                Fiction 
              </Heading>
             </Box> 
-              <Box separator='bottom' className='head-text'>
-                <h3 className='masthead-headers'>
-                  Editor in Chief
-                </h3>  
-              </Box>
-              <Box>
-                <p className='body-text'>
-            	   Eunice Koomson
-                </p>
-               </Box>
+               
                <Box separator='bottom' className='head-text'>
                  <h3 className='masthead-headers'>Staff</h3>
                </Box>
@@ -112,14 +117,14 @@ export default class Masthead extends React.PureComponent {
 		                <br />
                     Tisheka Woodlief
               </Paragraph>
-               
-          </Box>
+            </Box>
+        
 
           <Box /*****POETRY CONTAINER*****/
            direction='column' 
            //alignSelf='center' 
            // full='vertical' 
-           separator='right' 
+           separator='vertical' 
            pad='medium' 
            margin={{left:'medium'}}
            >
@@ -138,24 +143,7 @@ export default class Masthead extends React.PureComponent {
                Poetry
              </Heading>
             </Box>
-            
-              <Box separator='bottom' className='head-text'>
-                <h3 className='masthead-headers'>
-                  Editor in Chief
-                </h3>
-              </Box>
-              <Box>
-                <p className='body-text'>
-                 
-                </p>
-               </Box>
-              <Box
-               direction='row'
-               //responsive={ false }
-               >
-        
-              
-               </Box>
+         
             
        
                 <Box separator='bottom'>
@@ -186,9 +174,52 @@ export default class Masthead extends React.PureComponent {
                  <br />
                 </Paragraph>
           </Box>
+
+           <Box /*****PROSE CONTAINER*****/
+           direction='column' 
+           //alignSelf='center' 
+           // full='vertical' 
+           separator='right' 
+           pad='medium' 
+           margin={{left:'medium'}}
+           >
+           <Box /*****HEADING CONTAINER*****/
+            pad='small'
+            margin='small'
+            colorIndex='neutral-3'
+            justify='center'
+          >
+            <Heading
+             uppercase={ true } 
+             size='large' 
+             align='center'
+             // margin='large'
+             > 
+               Prose
+             </Heading>
+            </Box>
+         
+            
+       
+                <Box separator='bottom'>
+                  <h3 className='masthead-headers'>Staff</h3>
+                </Box>
+             
+                <Paragraph 
+                 align='center' 
+                 margin='small'
+                 >
+                 Alden Caesar
+                 <br />
+                 Lizzie Vukovics
+                 <br />
+                </Paragraph>
+          </Box>
+
+          </Box>
 				    </Box>
-        
-         </div>
+          </Box>
+         </Box>
 
 		)
 	}
