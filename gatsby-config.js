@@ -6,6 +6,7 @@ module.exports = {
   },
   pathPrefix: '/gatsby-starter-grommet',
   plugins: [
+  	`gatsby-plugin-sitemap`,
     {
       resolve: 'custom-sass-loader',
       options: {
