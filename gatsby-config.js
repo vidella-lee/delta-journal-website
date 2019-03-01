@@ -3,6 +3,8 @@ const autoprefixer = require('autoprefixer')
 module.exports = {
   siteMetadata: {
     title: 'Delta Literary Journal',
+    description: `Website of LSU's undergraduate literary magazine: Delta Journal.`,
+    siteUrl: `https://www.thedeltajournal.com/`,
   },
   pathPrefix: '/gatsby-starter-grommet',
   plugins: [
