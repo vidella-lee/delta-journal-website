@@ -42,29 +42,67 @@ export default class Home extends React.PureComponent {
           
             <Article colorIndex="neutral-2">
               <div className="head-text">
-                <Box>
+         
                   
-                  <div style={{margin:'0px'}, {width:'100%'}, {height:'100%'}, {filter:'drop-shadow(16px 16px 10px grey)'}}>
-                    <Hero
-                     size='large'
-                     // margin={{top: 'large'}}
-                     backgroundColorIndex='dark'
-                     background={
-                      <Image
-                       src={ heroImage }
-                       // className='blurred'
-                       full={ true }
-                       fit="cover"
-                       // align='bottom'
-                       />
-                     }       
+                  <div
+                   style={{margin:'0px'}, {width:'100%'}, {height:'100%'}, {filter:'drop-shadow(16px 16px 10px grey)'}, {backgroundColor: '#5F7A76'}}
+                   >
+                    {/* <div
+                     className='home-hero-overlay'
                     >
-                    <Box colorIndex='neutral-3'><Heading align='end'>THE DELTA UNDERGRADUATE LITERARY JOURNAL</Heading></Box>
                     
-                 </Hero>
+                    </div> */}
+
+                    <div
+                     className='home-hero-container'
+                     //style={{  filter: 'blur(5px)'}}
+                     //size='large'
+                     // margin={{top: 'large'}}
+                     //backgroundColorIndex='dark'
+                     // background={
+                     //  <Image
+                     //   src={ heroImage }
+                     //   // className='blurred'
+                     //   full={ true }
+                     //   fit="cover"
+                     //   // align='bottom'
+                     //   />
+                     // }       
+                    >
+                  
+                   
+                    <Box
+                     colorIndex='neutral-3'
+                     //style={{  zIndex: '1000000000000000000000', position: 'absolute'}}
+                     >   
+                      <Heading
+                        align='end'
+                        size='xlarge'
+                       >
+                          THE DELTA UNDERGRADUATE LITERARY JOURNAL
+                      </Heading>
+                    </Box>
+                    <Box
+                     colorIndex='neutral-3'
+                     margin='small'
+                     //style={{  zIndex: '1000000000000000000000', position: 'absolute'}}
+                       // style={{
+                       //    marginTop: '10px',
+                       //   }}
+                     >
+                        <h2
+                         className='sub-head-text'
+
+                         
+                        >
+                           VOLUME 60
+                        </h2>
+                     </Box>
+                   </div>
+                    
                  </div>
                  
-                </Box>
+           
                 </div>
                 <App>
                
