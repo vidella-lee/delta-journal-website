@@ -52,13 +52,17 @@ export default class HighlandCoffeeReadings extends React.PureComponent {
 			      size='large'
 			      colorIndex='neutral-3'
 			      align='center'
-			      margin='large'
+			      margin='medium'
 			      >
-			        <Columns size='small'>
+			        <Columns
+			         size='small'
+			         align='center'
+			         justify='center'
+			         >
 			         
 			          <Box
                        pad='small'
-                       textAlign='center'
+                       textAlign='left'
                        // align='left'
                        separator='all'
                        // justify='center'
@@ -69,13 +73,17 @@ export default class HighlandCoffeeReadings extends React.PureComponent {
 			            <Paragraph>
 			             Come share your writing with Delta and other LSU literary creatives.
 			             <br />
+			             <br />
 			             If you'd like to read, please contact us at deltajournal@gmail.com or message us on 
 			             <Anchor href='https://www.facebook.com/DeltaLiteraryJournal/' label=' Facebook' color='neutral-1'></Anchor>
 			           .
 			          </Paragraph>
 			        
 			        </Box>
-			         <Box textAlign='center'>
+			         <Box
+			          textAlign='center'
+			          pad='medium'
+			          >
 			            <Heading tag='h2'>Fall 2018 Schedule</Heading>
 			            <Paragraph>
 			              <br />
@@ -89,12 +97,10 @@ export default class HighlandCoffeeReadings extends React.PureComponent {
 			       		</Paragraph>
                         <Heading tag='h2'>@</Heading>
                         <Label>Highland Coffees</Label>
-                        <Box margin='large'>
+                        <Box margin='small'>
                         	<Paragraph>
                         		3350 Highland Rd.
-                        		<br />
                         		Baton Rouge, LA 70802 
-                        		<br />
                         	</Paragraph>
                         </Box>	
 			          </Box>

@@ -22,8 +22,8 @@ import JournalCard from '../JournalCard'
 import DeltaFooter from '../Footer'
 import DeltaHeader from '../Header'
 
-var heroImage = require('./cover-art.jpg');
-
+// var heroImage = require('./cover-art.jpg');
+var heroImage = require('./StrongWomen_AfsanehGhazavi.png');
 
 // <Box size='small' basis='small' justify='center' colorIndex='accent-3' >
 //                     <Label 
@@ -76,7 +76,7 @@ export default class Home extends React.PureComponent {
                      //style={{  zIndex: '1000000000000000000000', position: 'absolute'}}
                      >   
                       <Heading
-                        align='end'
+                        align='center'
                         size='xlarge'
                        >
                           THE DELTA UNDERGRADUATE LITERARY JOURNAL
@@ -106,25 +106,28 @@ export default class Home extends React.PureComponent {
                 </div>
                 <App>
                
-                <Box 
-                 direction='row'
-                 colorIndex='neutral-2'>
-            <Box pad='small'>
-            <div style={{margin:'0px'}, {width:'100%'}, {height:'100%'}, {filter:'drop-shadow(16px -13px 10px grey)'}}>
-            <HCRCard />
-            </div>
-            </Box>
-            <Box pad='small'>
-            <div style={{margin:'0px'}, {width:'100%'}, {height:'100%'}, {filter:'drop-shadow(16px -13px 10px grey)'}}>   
-            <JournalCard/>
-            </div>
-            </Box> 
-            <Box pad='small'> 
-            <div style={{margin:'0px'}, {width:'100%'}, {height:'100%'}, {filter:'drop-shadow(16px -13px 10px grey)'}}> 
-            <ApplicationsCard/>
-            </div>
-            </Box>
-           </Box>
+                    <Box 
+                     direction='row'
+                     colorIndex='neutral-2'
+                     align='center'
+                     justify='center'
+                     >
+                        <Box pad='small'>
+                            <div style={{margin:'0px'}, {width:'100%'}, {height:'100%'}, {filter:'drop-shadow(10px -13px 5px grey)'}}>
+                                <HCRCard />
+                            </div>
+                        </Box>
+                        <Box pad='small'>
+                            <div style={{margin:'0px'}, {width:'100%'}, {height:'100%'}, {filter:'drop-shadow(10px -13px 5px grey)'}}>   
+                                <JournalCard/>
+                            </div>
+                        </Box> 
+                        <Box pad='small'> 
+                            <div style={{margin:'0px'}, {width:'100%'}, {height:'100%'}, {filter:'drop-shadow(10px -13px 5px grey)'}}> 
+                                <ApplicationsCard/>
+                            </div>
+                        </Box>
+                </Box>
            </App>
             </Article>
                 

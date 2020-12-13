@@ -20,7 +20,7 @@ export default class DeltaHeader extends React.PureComponent {
       <Header
           size='small'
           //fixed={true}
-          justify='between'
+          justify='around'
           gap='large'
           // float={true}
           // size={{ width: {max: 'large'}}} 
