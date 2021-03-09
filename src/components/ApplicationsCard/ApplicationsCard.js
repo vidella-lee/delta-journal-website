@@ -12,7 +12,7 @@ export default class ApplicationsCard extends React.PureComponent {
         <Card 
           thumbnail={cardImg}
           // label="Delta's" 
-          heading='Now Accepting Applications for Fall 2019!' 
+          heading='Now Accepting Fall Semester Applications!' 
           description=''
           link={<Anchor href='https://goo.gl/forms/vPvhjh8TivsWHiVk2' label='Submit an application here.'/>}
           // colorIndex='neutral-2'
