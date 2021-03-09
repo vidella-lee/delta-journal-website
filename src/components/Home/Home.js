@@ -74,6 +74,9 @@ export default class Home extends React.PureComponent {
                     <Box
                      colorIndex='neutral-3'
                      //style={{  zIndex: '1000000000000000000000', position: 'absolute'}}
+                     style={{
+                        padding: '10px'
+                     }}
                      >   
                       <Heading
                         align='center'
