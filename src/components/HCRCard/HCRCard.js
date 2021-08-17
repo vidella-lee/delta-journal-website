@@ -2,7 +2,8 @@ import React from 'react'
 import Card from 'grommet/components/Card'
 import Anchor from 'grommet/components/Anchor'
 
-var cardImg = require('./hc-sign-3.jpg');
+//var cardImg = require('./hc-sign-3.jpg');
+var cardImg = require('./highland-coffees-sign-edit.png');
 
 export default class HCRCard extends React.PureComponent {
   render(){
@@ -16,6 +17,7 @@ export default class HCRCard extends React.PureComponent {
               textSize='small'
               contentPad='large'
               link={<Anchor href='./highland-coffee-readings' label='Share with the community.'/>}
+              elevation='large'
               // alignSelf='left'
               // direction='row'
          />

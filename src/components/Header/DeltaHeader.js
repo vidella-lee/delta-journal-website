@@ -20,7 +20,8 @@ export default class DeltaHeader extends React.PureComponent {
       <Header
           size='small'
           //fixed={true}
-          justify='around'
+          justify='between'
+          //responsive={true}
           gap='large'
           // float={true}
           // size={{ width: {max: 'large'}}} 
@@ -39,6 +40,12 @@ export default class DeltaHeader extends React.PureComponent {
             </Title>
           </Box>
 
+          <Box
+           direction='row-responsive'
+           alignSelf='end'
+           flex={false}
+           //style={{border: '1px solid white'}}
+           >
             <Box
              pad='medium'
              >
@@ -58,19 +65,19 @@ export default class DeltaHeader extends React.PureComponent {
           
             <Box 
               pad='medium'
-              alignSelf='end'
               >
               <Anchor href='/submit/'>
               <Label size='small' uppercase={ true }>Submit</Label>
               </Anchor>
+            </Box>
           </Box>
 
-          <Menu 
+          {/*<Menu 
             direction='row'
             //size='large'
             dropAlign={{left: 'left', top: 'bottom'}}
             >
-        {/*  
+          
           <Box
              pad='medium'
              > 
@@ -78,9 +85,9 @@ export default class DeltaHeader extends React.PureComponent {
                 <Label size='small' uppercase={ true }>Archives</Label>
               </Anchor>
             </Box>
-            */}
+            
           </Menu>
- 
+ */}
         </Header>
 
       )

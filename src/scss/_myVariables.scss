@@ -346,7 +346,7 @@ $sub-head-font: 'Abel', sans-serif !important;
   height: 70%;
   min-height: 70vh;
   color: white;
-  background-image: url('../images/StrongWomen_AfsanehGhazavi.png');
+  background-image: url('../images/StrongWomen_AfsanehGhazavi-with-overlay.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left center;
@@ -472,21 +472,27 @@ $sub-head-font: 'Abel', sans-serif !important;
 .body-text {
   font-family: $body-font;
 }
+
 .blurred {
   -webkit-filter: blur(2px); /* Safari 6.0 - 9.0 */
   filter: blur(2px);
 }
+
 .head-text {
   font-family: $head-font;
 }
+
 .sub-head-text {
   font-family: $sub-head-font;
 }
+
 .card {
-  /*border-radius: 30px;*/
   overflow: hidden;
-  /*width: 90%;*/
+  width: 100%;
+  min-height: 500px;
+  margin: 0px;
 }
+
 .editor-pic {
   margin-left: auto;
   margin-top: auto;

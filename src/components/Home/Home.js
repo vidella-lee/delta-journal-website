@@ -1,36 +1,33 @@
 import React from 'react'
 
-import Article from 'grommet/components/Article'
-import Hero from 'grommet/components/Hero'
-import Title from 'grommet/components/Title'
-import Heading from 'grommet/components/Heading'
-import Headline from 'grommet/components/Headline'
-import Paragraph from 'grommet/components/Paragraph'
-import Section from 'grommet/components/Section'
-import Box from 'grommet/components/Box'
-import Link from 'gatsby-link'
-import Label from 'grommet/components/Label'
-import Image from 'grommet/components/Image'
-import Columns from 'grommet/components/Columns'
-import App from 'grommet/components/App'
+//GROMMET COMPONENTS
+import Article from 'grommet/components/Article';
+import Hero from 'grommet/components/Hero';
+import Title from 'grommet/components/Title';
+import Heading from 'grommet/components/Heading';
+import Headline from 'grommet/components/Headline';
+import Paragraph from 'grommet/components/Paragraph';
+import Section from 'grommet/components/Section';
+import Box from 'grommet/components/Box';
+import Link from 'gatsby-link';
+import Label from 'grommet/components/Label';
+import Image from 'grommet/components/Image';
+import Columns from 'grommet/components/Columns';
+import App from 'grommet/components/App';
 
-import HeaderBox from  '../HeaderBox'
-import HCRCard from '../HCRCard'
-import ApplicationsCard from '../ApplicationsCard'
-import FWCard from '../FeaturedWritersCard'
-import JournalCard from '../JournalCard'
-import DeltaFooter from '../Footer'
-import DeltaHeader from '../Header'
+//CUSTOM COMPONENTS
+import HeaderBox from  '../HeaderBox';
+import FeatureCard from '../FeatureCard';
+import DeltaFooter from '../Footer';
+import DeltaHeader from '../Header';
 
-// var heroImage = require('./cover-art.jpg');
-var heroImage = require('./StrongWomen_AfsanehGhazavi.png');
+//IMAGES
+var hcCardImg = require('../../images/highland-coffees-sign-edit.png');
+var applyCardImg = require('../../images/writer.jpg');
+var journalCardImg = require('../../images/issue60.jpg');
 
-// <Box size='small' basis='small' justify='center' colorIndex='accent-3' >
-//                     <Label 
-//                      align='center'
-//                      >
-//                      Now Accepting Applications for Spring 2019!</Label>
-//                     </Box>
+//var heroImage = require('./StrongWomen_AfsanehGhazavi.png');
+
 
 export default class Home extends React.PureComponent {
   render(){
@@ -72,7 +69,7 @@ export default class Home extends React.PureComponent {
                   
                    
                     <Box
-                     colorIndex='neutral-3'
+                     //colorIndex='neutral-3'
                      //style={{  zIndex: '1000000000000000000000', position: 'absolute'}}
                      style={{
                         padding: '10px'
@@ -86,7 +83,7 @@ export default class Home extends React.PureComponent {
                       </Heading>
                     </Box>
                     <Box
-                     colorIndex='neutral-3'
+                     //colorIndex='neutral-3'
                      margin='small'
                      //style={{  zIndex: '1000000000000000000000', position: 'absolute'}}
                        // style={{
@@ -112,23 +109,44 @@ export default class Home extends React.PureComponent {
                     <Box 
                      direction='row'
                      colorIndex='neutral-2'
-                     align='center'
+                     align='start'
                      justify='center'
+                     pad='large'
                      >
-                        <Box pad='small'>
-                            <div style={{margin:'0px'}, {width:'100%'}, {height:'100%'}, {filter:'drop-shadow(10px -13px 5px grey)'}}>
-                                <HCRCard />
-                            </div>
+                        <Box 
+                         pad='small'
+                         //margin={{top: "large"}}
+                         >
+                            <FeatureCard
+                             cardImg={hcCardImg}
+                             label='Highland Coffees'
+                             heading='Reading Series' 
+                             description='An open mic for the poetic souls and storytellers. Twice a month.'
+                             link='./highland-coffee-readings'
+                             linkLabel='Share with the community.'
+                             />
+                            
                         </Box>
                         <Box pad='small'>
-                            <div style={{margin:'0px'}, {width:'100%'}, {height:'100%'}, {filter:'drop-shadow(10px -13px 5px grey)'}}>   
-                                <JournalCard/>
-                            </div>
+                            <FeatureCard
+                             cardImg={journalCardImg}
+                             label='Spring 2018'
+                             heading='60th Issue' 
+                             description='Our latest featuring some of LSU&#8217;s greatest.'
+                             link='/delta60/'
+                             linkLabel='Take a Look.'
+                             />
                         </Box> 
                         <Box pad='small'> 
-                            <div style={{margin:'0px'}, {width:'100%'}, {height:'100%'}, {filter:'drop-shadow(10px -13px 5px grey)'}}> 
-                                <ApplicationsCard/>
-                            </div>
+                            <FeatureCard
+                             cardImg={applyCardImg}
+                             label='Join Delta'
+                             heading='Now Accepting Fall Semester Applications!' 
+                             description='Do you have a passion for literature and editing? Join our team.'
+                             link='https://goo.gl/forms/vPvhjh8TivsWHiVk2'
+                             linkLabel='Submit an application here.'
+                             />
+                            
                         </Box>
                 </Box>
            </App>

@@ -32,7 +32,11 @@
    color:  #8DB9BA; /*briny teal*/
 }
 .grommetux-card {
-	background: #DEECE8; 
+	/*background: #DEECE8; */
+	background: transparent;
+}
+.grommetux-card .grommetux-thumbnail {
+	background-size: cover;
 }
 
 /*.grommetux-paragraph .grommetux-anchor .grommetux-label{

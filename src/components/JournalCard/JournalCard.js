@@ -2,7 +2,7 @@ import React from 'react'
 import Anchor from 'grommet/components/Anchor'
 import Card from 'grommet/components/Card'
 
-var cardImg = require('./issue60-3.png');
+var cardImg = require('./issue60.jpg');
 
 export default class JournalCard extends React.PureComponent {
   render(){
