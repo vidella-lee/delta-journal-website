@@ -52,7 +52,9 @@ export default class About extends React.PureComponent {
 				</Container>
 			</div>
 			<Box
-			 alignSelf='center'>
+			 alignSelf='center'
+			 margin={{bottom: 'large'}}
+			 >
 				<Masthead/>
 			</Box>
 			<DeltaFooter />

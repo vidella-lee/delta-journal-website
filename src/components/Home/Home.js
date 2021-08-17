@@ -76,6 +76,7 @@ export default class Home extends React.PureComponent {
                      }}
                      >   
                       <Heading
+                        className='home-h1'
                         align='center'
                         size='xlarge'
                        >

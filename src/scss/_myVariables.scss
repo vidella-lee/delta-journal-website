@@ -375,6 +375,7 @@ $sub-head-font: 'Abel', sans-serif !important;
   font-size: 50px !important;
   color: #EEF2F6; /*icy grey*/; 
   padding: 20px;
+   border: 2px solid #EEF2F6; /*icy grey*/
   /*color: #313234;*/ /*dark ash grey*/
   /*background: #8DB9BA;*/ /*briny teal*/
   /*background: #313234;*/ /*dark ash grey*/
@@ -384,6 +385,11 @@ $sub-head-font: 'Abel', sans-serif !important;
   /*margin-top: 50%;*/
  /* margin-bottom: 50%;*/
   
+}
+
+.home-h1 {
+   border: 2px solid #EEF2F6; /*icy grey*/
+   padding: 20px;
 }
 
 .event-page {
