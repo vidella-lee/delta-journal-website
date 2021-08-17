@@ -28,49 +28,33 @@ export default class About extends React.PureComponent {
 		return(
 		  <Article colorIndex="neutral-2">
 		  <DeltaHeader />
-		 
-			
-			   
-			
-            	 
-            	    
-            			<div className='about-hero-container'>
-            				<div className='about-header'>
-            	        		<h1
-				    		 	 className='head-text about-h1'
-				     		 	 // margin='small'
-				     		 	 // align='center'
-				     			> 
-				       				About Delta
-				    			</h1>
-				    		</div>	
+			<div className='about-hero-container'>
+            	<div>
+            	    <h1
+				     className='head-text about-h1'
+				     > 
+				     	ABOUT DELTA
+				    </h1>
+				</div>	
             	     	
-            	     </div>
-				    
-				    <div className='about-box'>
-				    <Container text
-				     className='about-text'
-				     >
-					  The Delta Literary Journal has been sharing the brilliance 
-					  of LSU’s undergraduate literary and visual artists since 1947.
-					  We aim to help foster an inclusive, supportive, and creative culture of literature.
-					  <br/>
-					  <br/>
-					  Every year, in the Spring Semester, we accept a variety of submissions such as poetry, fiction, nonfiction, 
-					  visual art, cartoons, comics, etc. from LSU undergraduates and publish their work in our literary magazine.
-				    </Container>
-				    </div>
-					
-			
-				 
-				   		<Box
-				   	 	 alignSelf='center'>
-				    		<Masthead/>
-				    	</Box>	
-				
-			  
-			
-			
+            </div>	    
+			<div className='about-box'>
+				<Container text
+				 className='about-text'
+				  >
+					The Delta Literary Journal has been sharing the brilliance 
+					of LSU’s undergraduate literary and visual artists since 1947.
+					We aim to help foster an inclusive, supportive, and creative culture of literature.
+					<br/>
+					<br/>
+					Every year, in the Spring Semester, we accept a variety of submissions such as poetry, fiction, nonfiction, 
+					visual art, cartoons, comics, etc. from LSU undergraduates and publish their work in our literary magazine.
+				</Container>
+			</div>
+			<Box
+			 alignSelf='center'>
+				<Masthead/>
+			</Box>
 			<DeltaFooter />
 		  </Article>
 		)

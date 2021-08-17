@@ -294,6 +294,7 @@ $sub-head-font: 'Abel', sans-serif !important;
    text-align: justify;
    color: #313234; /*dark ash grey*/
 }
+
 .about-hero-container {
   display: flex;
   flex-direction: row;
@@ -308,7 +309,7 @@ $sub-head-font: 'Abel', sans-serif !important;
   /*min-width: 100vh;*/
   height: 70%;
   min-height: 70vh;
-  background-image: url('../images/delta+coffee.png');
+  background-image: url('../images/weird-tea-setup.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left center;
@@ -372,16 +373,17 @@ $sub-head-font: 'Abel', sans-serif !important;
   display: flex;
   font-family: $head-font;
   font-size: 50px !important;
-  color: #EEF2F6; /*icy grey*/;
+  color: #EEF2F6; /*icy grey*/; 
+  padding: 20px;
   /*color: #313234;*/ /*dark ash grey*/
   /*background: #8DB9BA;*/ /*briny teal*/
   /*background: #313234;*/ /*dark ash grey*/
-  padding: 20px;
+
  /* margin-left: auto !important;*/
   /*margin-right: auto !important;*/
   /*margin-top: 50%;*/
  /* margin-bottom: 50%;*/
-  border: 2px solid #EEF2F6; /*icy grey*/
+  
 }
 
 .event-page {
