@@ -22,9 +22,9 @@ import DeltaFooter from '../Footer';
 import DeltaHeader from '../Header';
 
 //IMAGES
-var hcCardImg = require('./highland-coffees-sign-edit.png');
-var applyCardImg = require('./writer.jpg');
-var journalCardImg = require('./issue60.jpg');
+var hcCardImg = require('../../images/highland-coffees-sign-edit.png');
+var applyCardImg = require('../../images/writer.jpg');
+var journalCardImg = require('../../images/issue60-resized.jpg');
 
 //var heroImage = require('./StrongWomen_AfsanehGhazavi.png');
 
