@@ -39,9 +39,11 @@ export default class About extends React.PureComponent {
             	     	
             </div>	    
 			<div className='about-box'>
+
 				<Container text
 				 className='about-text'
 				  >
+				  <h1>Who We Are</h1>
 					The Delta Literary Journal has been sharing the brilliance 
 					of LSU’s undergraduate literary and visual artists since 1947.
 					We aim to help foster an inclusive, supportive, and creative culture of literature.
