@@ -30,11 +30,11 @@ export default class About extends React.PureComponent {
 		  <DeltaHeader />
 			<div className='about-hero-container'>
             	<div>
-            	    <h1
+            	    <Heading
 				     className='head-text about-h1'
 				     > 
 				     	ABOUT DELTA
-				    </h1>
+				    </Heading>
 				</div>	
             	     	
             </div>	    
