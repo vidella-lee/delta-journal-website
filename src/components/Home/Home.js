@@ -80,7 +80,7 @@ export default class Home extends React.PureComponent {
                         align='center'
                         size='xlarge'
                        >
-                          THE DELTA UNDERGRADUATE LITERARY JOURNAL
+                          THE DELTA LITERARY JOURNAL
                       </Heading>
                     </Box>
                     <Box
