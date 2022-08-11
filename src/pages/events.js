@@ -20,6 +20,7 @@ import { Grid, Image, Container, Icon } from "semantic-ui-react";
 
 var readingPic = require("../images/mic.png");
 var cloudGradient = require("../images/cloud-gradient.png");
+var shakespeare = require("../images/shakespeare2.jpg");
 
 export default class Events extends React.PureComponent {
   render() {
@@ -96,7 +97,7 @@ export default class Events extends React.PureComponent {
                   <Image
                     //size="tiny"
                     size="small"
-                    src={cloudGradient}
+                    src={shakespeare}
                     // floated='left'
                     circular={true}
                     href="#"
