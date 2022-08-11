@@ -399,7 +399,7 @@ p {
   font-size: 50px !important;
   color: #eef2f6; /*icy grey*/
   padding: 20px;
-  border: 2px solid #eef2f6; /*icy grey*/
+  border: 2px solid $icy-grey; /*icy grey*/
   /*color: $murky-grey*/ /*dark ash grey*/
   /*background: #8DB9BA;*/ /*briny teal*/
   /*background: $murky-grey*/ /*dark ash grey*/
@@ -428,28 +428,51 @@ p {
   width: 70vw !important;
   align-items: center !important;
   justify-content: center !important;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  margin-top: 3%;
 }
 
 .event-box {
   display: flex;
   /*background: #8DB9BA !important;*/
   background: #313234; /*dark ash grey*/
-  width: 80%;
+  width: 75% !important;
   min-height: 70vh;
+  // align-items: center !important;
+  // align-content: center !important;
+  // justify-content: center !important;
   justify-self: center;
   align-self: center;
   /*min-width: 90vh;*/
   margin: 30px;
   color: #deece8; /*light green-gray*/
+  padding: 40px;
+  border-radius: 20px;
+}
+
+#event-header-box {
+  display: flex;
+  // justify-self: center !important;
+  // align-self: center !important;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid $icy-grey;
+  width: 30%;
+  margin-bottom: 5%;
 }
 
 .event-head {
   font-family: $head-font;
+  text-transform: uppercase;
   /*color: #8DB9BA !important; */ /*briny teal*/
   /*color: #313234;*/ /*dark ash grey*/
-  padding-top: 20%;
-  font-size: 48px !important;
+  font-size: 50px !important;
+  padding: 20px;
 }
+
+// #event-subheader {
+// }
 
 .event-card {
   display: flex;
@@ -459,12 +482,12 @@ p {
   /*align-self: center;*/
   /*justify-self: center;*/
   padding: 5%;
-  margin: 5%;
+  // margin: 5%;
 }
 .event-text {
   display: flex !important;
   justify-content: center !important;
-  font-family: $head-font;
+  font-family: $body-font;
   //color: #EEF2F6 !important; /*icy grey*/
   /*padding-top: 8%;*/
   /*padding-left: 10%;*/
@@ -506,8 +529,11 @@ p {
 }
 
 .icon-link {
-  color: #eef2f6 !important; /*icy grey*/
+  color: $delta-teal !important;
   margin: 20px;
+  &:hover {
+    color: $icy-grey !important;
+  }
 }
 .event-icon-group {
   display: flex;
