@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-grommet",
-  "description": "Gatsby starter with the Grommet design system",
+  "name": "The Delta Literary Journal",
+  "description": "Website showcasing the Delta Literary Journal's 60th issue.",
   "version": "1.0.0",
-  "author": "Aaron Lampros <alampros@gmail.com>",
+  "author": "Liz Nelson <elizabethnelson905@gmail.com>",
   "bugs": {
     "url": "https://github.com/alampros/gatsby-starter-grommet/issues"
   },
