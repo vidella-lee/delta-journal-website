@@ -1,42 +1,45 @@
-.grommetux-background-color-index-accent-1{
-	background: #DEECE8; /*light green-gray*/
+.grommetux-background-color-index-accent-1 {
+  background: #deece8; /*light green-gray*/
 }
-.grommetux-background-color-index-accent-2{
-	background: #282A2D; /*dark grey*/
+.grommetux-background-color-index-accent-2 {
+  background: #282a2d; /*dark grey*/
 }
-.grommetux-background-color-index-accent-3{
-	background: rgba(49,50,52, 0.3); /*briny teal transparent*/
+.grommetux-background-color-index-accent-3 {
+  background: rgba(49, 50, 52, 0.3); /*briny teal transparent*/
 }
-.grommetux-background-color-index-neutral-1{
-	background: #8DB9BA; /*briny teal*/
+.grommetux-background-color-index-accent-4 {
+  background: #b7ba80; /*spring green*/
 }
-.grommetux-background-color-index-neutral-2{
-	background: #EEF2F6; /*icy grey*/
+.grommetux-background-color-index-neutral-1 {
+  background: #8db9ba; /*briny teal*/
 }
-.grommetux-background-color-index-neutral-3{
-	background: #313234; /*dark ash grey*/
+.grommetux-background-color-index-neutral-2 {
+  background: #eef2f6; /*icy grey*/
 }
-.grommetux-header .grommetux-label  {
-	color:  #EEF2F6; /*icy grey*/
+.grommetux-background-color-index-neutral-3 {
+  background: #313234; /*dark ash grey*/
 }
-.grommetux-footer .grommetux-label  {
-	color:  #8DB9BA; /*briny teal*/
+.grommetux-header .grommetux-label {
+  color: #eef2f6; /*icy grey*/
+}
+.grommetux-footer .grommetux-label {
+  color: #8db9ba; /*briny teal*/
 }
 .submit-label .grommetux-label {
-   color:  #8DB9BA; /*briny teal*/
+  color: #8db9ba; /*briny teal*/
 }
 .submit-anchor .grommetux-label {
-   color:  #8DB9BA; /*briny teal*/
+  color: #8db9ba; /*briny teal*/
 }
 .grommetux-card .grommetux-text {
-   color:  #8DB9BA; /*briny teal*/
+  color: #8db9ba; /*briny teal*/
 }
 .grommetux-card {
-	/*background: #DEECE8; */
-	background: transparent;
+  /*background: #DEECE8; */
+  background: transparent;
 }
 .grommetux-card .grommetux-thumbnail {
-	background-size: cover;
+  background-size: cover;
 }
 
 /*.grommetux-paragraph .grommetux-anchor .grommetux-label{

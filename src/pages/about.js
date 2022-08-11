@@ -32,30 +32,32 @@ export default class About extends React.PureComponent {
             	<div>
             	    <Heading
 				     className='head-text about-h1'
-				     > 
+				     >
 				     	ABOUT DELTA
 				    </Heading>
-				</div>	
-            	     	
-            </div>	    
+					<h2 className='subheader'><i>Since 1947.</i></h2>
+				</div>
+            </div>
 			<div className='about-box'>
 
 				<Container text
 				 className='about-text'
 				  >
 				  <h1>Who We Are</h1>
-					The Delta Literary Journal has been sharing the brilliance 
-					of LSU’s undergraduate literary and visual artists since 1947.
-					We aim to help foster an inclusive, supportive, and creative culture of literature.
-					<br/>
-					<br/>
-					Every year, in the Spring Semester, we accept a variety of submissions such as poetry, fiction, nonfiction, 
-					visual art, cartoons, comics, etc. from LSU undergraduates and publish their work in our literary magazine.
+					<p>
+						The Delta Literary Journal has been sharing the brilliance
+						of LSU's undergraduate literary and visual artists since 1947.
+						We aim to help foster an inclusive, supportive, and creative culture of literature.
+					</p>
+					<p>
+						Every year, in the Spring Semester, we accept a variety of submissions such as poetry, fiction, nonfiction, 
+						visual art, cartoons, comics, etc. from LSU undergraduates and publish their work in our literary magazine.
+					</p>
 				</Container>
 			</div>
 			<Box
 			 alignSelf='center'
-			 margin={{bottom: 'large'}}
+			 margin={{bottom: 'large', top: 'large'}}
 			 >
 				<Masthead/>
 			</Box>
