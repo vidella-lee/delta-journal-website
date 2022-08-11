@@ -436,7 +436,7 @@ p {
 .event-box {
   display: flex;
   /*background: #8DB9BA !important;*/
-  background: #313234; /*dark ash grey*/
+  background: rgba(49, 50, 52, 0.6); /*dark ash grey*/
   width: 75% !important;
   min-height: 70vh;
   // align-items: center !important;
@@ -707,4 +707,8 @@ font-family: 'Kosugi', sans-serif;
 .header-link:hover {
   color: #5b7a78 !important;
   text-decoration-line: none !important;
+}
+
+.rounded-corner-img {
+  border-radius: 20px;
 }
