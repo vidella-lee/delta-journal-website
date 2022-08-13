@@ -1,0 +1,76 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  // EVENT PAGE
+  .event-box {
+    width: 100% !important;
+    padding: 25px;
+  }
+
+  #event-card-box {
+    flex-direction: column;
+  }
+
+  #event-header-box {
+    display: inline-flex;
+    margin-top: 15% !important;
+    width: 60% !important;
+  }
+
+  .event-head {
+    font-size: 35px !important;
+  }
+
+  .event-icon-group {
+    // min-width: 100vw !important;
+    margin: 0%;
+    margin-bottom: 10%;
+    padding: 0px !important;
+    font-size: 9px;
+  }
+
+  // SUBMIT PAGE
+  .submit-button {
+    padding: 20px !important;
+    width: 50% !important;
+  }
+
+  .icon-link {
+    color: $delta-teal !important;
+    margin: 5px;
+  }
+
+  #about-subheading {
+    text-align: center;
+  }
+}
+
+/*************** TABLET - PORTRAIT *************/
+@media (min-width: 768px) and (max-width: 1080px) {
+  // EVENT PAGE
+  .event-box {
+    //min-width: 100% !important;
+    padding: 25px;
+    min-height: 50vh;
+  }
+
+  #event-card-box {
+    flex-direction: column;
+  }
+
+  #event-header-box {
+    width: 40%;
+  }
+
+  .event-head {
+    font-size: 40px !important;
+  }
+}
+
+/*************** TABLET - LANDSCAPE *************/
+@media (min-width: 1080px) and (max-width: 1365px) and (orientation: landscape) {
+  .event-box {
+    min-height: 50vh;
+  }
+  #event-card-box {
+    flex-direction: column;
+  }
+}

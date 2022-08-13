@@ -1,74 +1,93 @@
-import React from 'react'
-import Article from 'grommet/components/Article'
-import Link from 'gatsby-link'
-import {
-	Grid,
-	Image,
-	Container,
-	Icon 
-} from 'semantic-ui-react'
+import React from "react";
+import Article from "grommet/components/Article";
+import Heading from "grommet/components/Heading";
+import Headline from "grommet/components/Headline";
+import Paragraph from "grommet/components/Paragraph";
+import Section from "grommet/components/Section";
+import Box from "grommet/components/Box";
+import Link from "gatsby-link";
+// import Image from 'grommet/components/Image'
+import Anchor from "grommet/components/Anchor";
+import App from "grommet/components/App";
+// import SocialFacebookIcon from 'grommet/components/icons/base/SocialFacebook';
+// import SocialInstagramIcon from 'grommet/components/icons/base/SocialInstagram';
+// import SocialTwitterIcon from 'grommet/components/icons/base/SocialTwitter';
 
-import DeltaFooter from '../components/Footer'
-import DeltaHeader from '../components/Header'
+import DeltaFooter from "../components/Footer";
+import DeltaHeader from "../components/Header";
 
-var coffee = require('../images/coffeecup.png');
-var logo = require('../images/logo-official.png');
+import { Grid, Image, Container, Icon } from "semantic-ui-react";
 
-export default class Contact extends React.PureComponent {
-	render(){
-		return(
-			<Article colorIndex="neutral-2">
-				<DeltaHeader />
-					<Container className='contact-page'>
-						<div className='contact-border'>
-							<div className='contact-headline'>
-									<h1 className='head-text'>
-										Contact Us
-									</h1>
-								</div>
-						<div>
-						<div className='contact-box'>
-							<div className='inner-contact-box-1'>
-								<h3 className='body-text'>Office located @:</h3>
-								<p className='body-text contact-text'>
-									LSU Baton Rouge, LA 70803
-									<br />
-									214A Allen Hall 
-								</p>
-							</div>
-							<div className='inner-contact-box-2'>	
-								<h3 className='body-text'> Email us @:</h3>
-								<p className='body-text contact-text'>
-									deltajournal@gmail.com
-								</p>
-							</div>
-							<div className='inner-contact-box-3'>
-								<h3 className='body-text'> Find us on:</h3>
-								<div className='icon-group'>
-		    					<a href='https://www.facebook.com/DeltaLiteraryJournal'>
-									<Icon 
-									 size='big'
-									 name='facebook square' />
-								</a>	
-								<a href='https://www.instagram.com/deltajournal/'> 
-									<Icon 
-									 size='big'
-									 name='instagram' />
-								</a>	 
-								<a href='https://twitter.com/deltajournal'>	 
-									<Icon 
-									 size='big'
-									 name='twitter square' />
-  								</a>
-		    				</div>
-							</div>
-						</div>
-					</div>
-					</div>
+var readingPic = require("../images/mic.png");
+var cloudGradient = require("../images/cloud-gradient.png");
+var shakespeare = require("../images/shakespeare2.jpg");
 
-					</Container>		
-			<DeltaFooter />
-			</Article>
-		)
-	}
+export default class Events extends React.PureComponent {
+  render() {
+    return (
+      <Article colorIndex="neutral-3">
+        <DeltaHeader />
+        <Container className="event-page" textAlign="center">
+          <Container
+            id="event-header-box"
+            textAlign="center"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          >
+            <h1 className="event-head">Contact Us</h1>
+          </Container>
+          <div>
+            <Container className="event-box">
+              <h2 className="subheader" id="event-subheader">
+                Office located @:
+              </h2>
+              <Container fluid={true} text className="event-text">
+                <p className="event-description">
+                  LSU Baton Rouge, LA 70803
+                  <br />
+                  214A Allen Hall
+                </p>
+              </Container>
+              <h2 className="subheader" id="event-subheader">
+                Email us @:
+              </h2>
+              <Container fluid={true} text className="event-text">
+                <p className="event-description">deltajournal@gmail.com</p>
+              </Container>
+              <Container className="event-icon-group">
+                <h3 className="subheader"> Find us on:</h3>
+                <a
+                  className="icon-link"
+                  href="https://www.facebook.com/DeltaLiteraryJournal"
+                  data-aos="fade-down"
+                  data-aos-duration="1000"
+                >
+                  <Icon size="huge" name="facebook square" />
+                </a>
+                <a
+                  className="icon-link"
+                  href="https://www.instagram.com/deltajournal/"
+                  data-aos="fade-down"
+                  delay="1000"
+                  data-aos-duration="1000"
+                >
+                  <Icon size="huge" name="instagram" />
+                </a>
+                <a
+                  className="icon-link"
+                  href="https://twitter.com/deltajournal"
+                  data-aos="fade-down"
+                  delay="500"
+                  data-aos-duration="1000"
+                >
+                  <Icon size="huge" name="twitter square" />
+                </a>
+              </Container>
+            </Container>
+          </div>
+        </Container>
+        <DeltaFooter />
+      </Article>
+    );
+  }
 }

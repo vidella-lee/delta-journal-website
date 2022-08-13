@@ -31,7 +31,8 @@ export default class Events extends React.PureComponent {
           <Container
             id="event-header-box"
             textAlign="center"
-            animation="fadeIn"
+            data-aos="fade-down"
+            data-aos-duration="1000"
           >
             <h1 className="event-head">Events</h1>
           </Container>
@@ -40,8 +41,8 @@ export default class Events extends React.PureComponent {
               <h2 className="subheader" id="event-subheader">
                 Get Involved!
               </h2>
-              <Container text className="event-text">
-                <p id="event-description">
+              <Container fluid={true} text className="event-text">
+                <p className="event-description">
                   Celebrate, support, and participate in Baton Rouge and LSU's
                   literary and creative communities. Check here to keep up with
                   upcoming Delta events like fundraisers, readings, workshops,
@@ -52,24 +53,37 @@ export default class Events extends React.PureComponent {
                 <a
                   className="icon-link"
                   href="https://www.facebook.com/DeltaLiteraryJournal"
+                  data-aos="fade-down"
+                  data-aos-duration="1000"
                 >
                   <Icon size="huge" name="facebook square" />
                 </a>
                 <a
                   className="icon-link"
                   href="https://www.instagram.com/deltajournal/"
+                  data-aos="fade-down"
+                  delay="1000"
+                  data-aos-duration="1000"
                 >
                   <Icon size="huge" name="instagram" />
                 </a>
                 <a
                   className="icon-link"
                   href="https://twitter.com/deltajournal"
+                  data-aos="fade-down"
+                  delay="500"
+                  data-aos-duration="1000"
                 >
                   <Icon size="huge" name="twitter square" />
                 </a>
               </Container>
-              <Box direction="row">
-                <Container as="div" className="event-card">
+              <Box id="event-card-box">
+                <Container
+                  as="div"
+                  className="event-card"
+                  data-aos="fade-down"
+                  data-aos-duration="1000"
+                >
                   <Image
                     size="small"
                     src={readingPic}
@@ -93,7 +107,12 @@ export default class Events extends React.PureComponent {
                     </p>
                   </Container>
                 </Container>
-                <Container className="event-card">
+                <Container
+                  className="event-card"
+                  data-aos="fade-down"
+                  data-aos-duration="1000"
+                  data-aos-delay="5000"
+                >
                   <Image
                     //size="tiny"
                     size="small"

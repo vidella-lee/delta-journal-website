@@ -32,7 +32,8 @@ export default class Events extends React.PureComponent {
           <Container
             id="event-header-box"
             textAlign="center"
-            animation="fadeIn"
+            data-aos="fade-down"
+            data-aos-duration="1000"
           >
             <h1 className="event-head">The Highland Coffee Reading Series</h1>
           </Container>
@@ -41,8 +42,8 @@ export default class Events extends React.PureComponent {
               <h2 className="subheader" id="event-subheader">
                 Organized by Writers, For Writers, to Support Writers.
               </h2>
-              <Container text className="event-text">
-                <p id="event-description">
+              <Container text fluid={true} className="event-text">
+                <p className="event-description">
                   Come share your writing with Delta and other LSU literary
                   creatives. If you'd like to read, please contact us at
                   deltajournal@gmail.com or message us on
