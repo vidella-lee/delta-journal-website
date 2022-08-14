@@ -1,5 +1,5 @@
 {
-  "name": "The Delta Literary Journal",
+  "name": "the-delta-literary-journal",
   "description": "Website showcasing the Delta Literary Journal's 60th issue.",
   "version": "1.0.0",
   "author": "Liz Nelson <elizabethnelson905@gmail.com>",
@@ -15,6 +15,7 @@
     "deploy": "yarn run build -- --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
+    "aos": "^3.0.0-beta.6",
     "autoprefixer": "^7.1.2",
     "axios": "^0.18.0",
     "extract-text-webpack-plugin": "^1.0.1",
