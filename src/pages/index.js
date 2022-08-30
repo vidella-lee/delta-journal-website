@@ -8,12 +8,12 @@ import "grommet/grommet.min.css";
 import "../scss/theme-override-modern-1.css";
 import "../scss/main.scss";
 
-import AOS from "aos";
-import "aos/dist/aos.css";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
 
-if (typeof document !== "undefined") {
-  AOS.init();
-}
+// if (typeof document !== "undefined") {
+//   AOS.init();
+// }
 
 export default class Index extends React.Component {
   render() {
